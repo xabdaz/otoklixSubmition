@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0431B4D8F7BB2916262ACE /* Pods_otoklixSubmition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83E8EF17D1AA5B184F2FF16 /* Pods_otoklixSubmition.framework */; };
+		1C3EFDDC69074387249A18CA /* Pods_otoklixSubmition_otoklixSubmitionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8985B9A6A44374A40369FA7C /* Pods_otoklixSubmition_otoklixSubmitionUITests.framework */; };
 		9F0771A32792C50A00CC61B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0771A22792C50A00CC61B1 /* AppDelegate.swift */; };
 		9F0771A52792C50A00CC61B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0771A42792C50A00CC61B1 /* SceneDelegate.swift */; };
 		9F0771A72792C50A00CC61B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0771A62792C50A00CC61B1 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		9F0771AF2792C50B00CC61B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0771AD2792C50B00CC61B1 /* LaunchScreen.storyboard */; };
 		9F0771BA2792C50C00CC61B1 /* otoklixSubmitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0771B92792C50C00CC61B1 /* otoklixSubmitionTests.swift */; };
 		9F0771C52792C50C00CC61B1 /* otoklixSubmitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0771C42792C50C00CC61B1 /* otoklixSubmitionUITests.swift */; };
+		DCD25685C29A5CB1E7FF2E15 /* Pods_otoklixSubmitionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4F2F759121CD07349DDEA0 /* Pods_otoklixSubmitionTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03B53BCA11880B9CAD6C5065 /* Pods-otoklixSubmition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmition.debug.xcconfig"; path = "Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition.debug.xcconfig"; sourceTree = "<group>"; };
+		08007B0A422497F64367BB84 /* Pods-otoklixSubmitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmitionTests.release.xcconfig"; path = "Target Support Files/Pods-otoklixSubmitionTests/Pods-otoklixSubmitionTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D4F2F759121CD07349DDEA0 /* Pods_otoklixSubmitionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_otoklixSubmitionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6776D2EF04037375CF63327F /* Pods-otoklixSubmition-otoklixSubmitionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmition-otoklixSubmitionUITests.release.xcconfig"; path = "Target Support Files/Pods-otoklixSubmition-otoklixSubmitionUITests/Pods-otoklixSubmition-otoklixSubmitionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88859B8BA8503ECB935F156E /* Pods-otoklixSubmition-otoklixSubmitionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmition-otoklixSubmitionUITests.debug.xcconfig"; path = "Target Support Files/Pods-otoklixSubmition-otoklixSubmitionUITests/Pods-otoklixSubmition-otoklixSubmitionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8985B9A6A44374A40369FA7C /* Pods_otoklixSubmition_otoklixSubmitionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_otoklixSubmition_otoklixSubmitionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F07719F2792C50A00CC61B1 /* otoklixSubmition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otoklixSubmition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0771A22792C50A00CC61B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F0771A42792C50A00CC61B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		9F0771C02792C50C00CC61B1 /* otoklixSubmitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = otoklixSubmitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0771C42792C50C00CC61B1 /* otoklixSubmitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otoklixSubmitionUITests.swift; sourceTree = "<group>"; };
 		9F0771C62792C50C00CC61B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83E8EF17D1AA5B184F2FF16 /* Pods_otoklixSubmition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_otoklixSubmition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFCD7D976E4FCD0434F44D5 /* Pods-otoklixSubmitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmitionTests.debug.xcconfig"; path = "Target Support Files/Pods-otoklixSubmitionTests/Pods-otoklixSubmitionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3ED351C4EEF27B22C161B58 /* Pods-otoklixSubmition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmition.release.xcconfig"; path = "Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B0431B4D8F7BB2916262ACE /* Pods_otoklixSubmition.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD25685C29A5CB1E7FF2E15 /* Pods_otoklixSubmitionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C3EFDDC69074387249A18CA /* Pods_otoklixSubmition_otoklixSubmitionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FE54B43AF3FF8DEB8808574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A83E8EF17D1AA5B184F2FF16 /* Pods_otoklixSubmition.framework */,
+				8985B9A6A44374A40369FA7C /* Pods_otoklixSubmition_otoklixSubmitionUITests.framework */,
+				1D4F2F759121CD07349DDEA0 /* Pods_otoklixSubmitionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9F0771962792C50900CC61B1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				9F0771B82792C50C00CC61B1 /* otoklixSubmitionTests */,
 				9F0771C32792C50C00CC61B1 /* otoklixSubmitionUITests */,
 				9F0771A02792C50A00CC61B1 /* Products */,
+				D9954434CF95CFAFD67BFF7B /* Pods */,
+				6FE54B43AF3FF8DEB8808574 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,20 @@
 			path = otoklixSubmitionUITests;
 			sourceTree = "<group>";
 		};
+		D9954434CF95CFAFD67BFF7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03B53BCA11880B9CAD6C5065 /* Pods-otoklixSubmition.debug.xcconfig */,
+				C3ED351C4EEF27B22C161B58 /* Pods-otoklixSubmition.release.xcconfig */,
+				88859B8BA8503ECB935F156E /* Pods-otoklixSubmition-otoklixSubmitionUITests.debug.xcconfig */,
+				6776D2EF04037375CF63327F /* Pods-otoklixSubmition-otoklixSubmitionUITests.release.xcconfig */,
+				BAFCD7D976E4FCD0434F44D5 /* Pods-otoklixSubmitionTests.debug.xcconfig */,
+				08007B0A422497F64367BB84 /* Pods-otoklixSubmitionTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F0771C92792C50C00CC61B1 /* Build configuration list for PBXNativeTarget "otoklixSubmition" */;
 			buildPhases = (
+				152669D84D064F69AC3641BB /* [CP] Check Pods Manifest.lock */,
 				9F07719B2792C50A00CC61B1 /* Sources */,
 				9F07719C2792C50A00CC61B1 /* Frameworks */,
 				9F07719D2792C50A00CC61B1 /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F0771CC2792C50C00CC61B1 /* Build configuration list for PBXNativeTarget "otoklixSubmitionTests" */;
 			buildPhases = (
+				6F7A9C859E95778C11CF32A7 /* [CP] Check Pods Manifest.lock */,
 				9F0771B12792C50C00CC61B1 /* Sources */,
 				9F0771B22792C50C00CC61B1 /* Frameworks */,
 				9F0771B32792C50C00CC61B1 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F0771CF2792C50C00CC61B1 /* Build configuration list for PBXNativeTarget "otoklixSubmitionUITests" */;
 			buildPhases = (
+				89A92EDE8ED81839D8EFCE10 /* [CP] Check Pods Manifest.lock */,
 				9F0771BC2792C50C00CC61B1 /* Sources */,
 				9F0771BD2792C50C00CC61B1 /* Frameworks */,
 				9F0771BE2792C50C00CC61B1 /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		152669D84D064F69AC3641BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-otoklixSubmition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F7A9C859E95778C11CF32A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-otoklixSubmitionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89A92EDE8ED81839D8EFCE10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-otoklixSubmition-otoklixSubmitionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9F07719B2792C50A00CC61B1 /* Sources */ = {
@@ -433,6 +546,7 @@
 		};
 		9F0771CA2792C50C00CC61B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03B53BCA11880B9CAD6C5065 /* Pods-otoklixSubmition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +566,7 @@
 		};
 		9F0771CB2792C50C00CC61B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3ED351C4EEF27B22C161B58 /* Pods-otoklixSubmition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +586,7 @@
 		};
 		9F0771CD2792C50C00CC61B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAFCD7D976E4FCD0434F44D5 /* Pods-otoklixSubmitionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +609,7 @@
 		};
 		9F0771CE2792C50C00CC61B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08007B0A422497F64367BB84 /* Pods-otoklixSubmitionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +632,7 @@
 		};
 		9F0771D02792C50C00CC61B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88859B8BA8503ECB935F156E /* Pods-otoklixSubmition-otoklixSubmitionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +653,7 @@
 		};
 		9F0771D12792C50C00CC61B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6776D2EF04037375CF63327F /* Pods-otoklixSubmition-otoklixSubmitionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

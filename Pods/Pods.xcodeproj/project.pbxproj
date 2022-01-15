@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CC6DE6475F560F52601D88C031CA7B4 /* Pods-otoklixSubmition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 396A8E20F4DE5E9FE18982A4D77133B2 /* Pods-otoklixSubmition-dummy.m */; };
+		15AE3E04A23456684A3BFCE1C8D0B150 /* Pods-otoklixSubmition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CA7025C89E4E46E32DA2E16E21A174 /* Pods-otoklixSubmition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28F6CFD873A2BEC430AA7CB5B8BCA4EB /* Pods-otoklixSubmitionTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81880501C158C1959B609D59CEEB0938 /* Pods-otoklixSubmitionTests-dummy.m */; };
+		429D2396754B583A55AEF53871586C6F /* Pods-otoklixSubmitionTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7DE8C41C88E7B5F480AB8F87485D03C /* Pods-otoklixSubmitionTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		697532ECEE6DEEE7896F0F27E5A1F1C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6CE1B05616989893547DCC97E91A80A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CAE42E61BEE78539393F15A2E53F644B /* Pods-otoklixSubmition-otoklixSubmitionUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBDF020240CFDAB72AC77D6EDBBC20 /* Pods-otoklixSubmition-otoklixSubmitionUITests-dummy.m */; };
+		DA2E56A87832A04C39EB31B7CCB07D87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F35E90DCB28FE6D2F2C019E861F89289 /* Pods-otoklixSubmition-otoklixSubmitionUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3447DCB1BD10CA0AD72C672CDD3A60C2 /* Pods-otoklixSubmition-otoklixSubmitionUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7F1AAB6D67FDE9154F3AAC9E3BFD454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E27123EB67A57E06C56AC14FB6AC4D1;
+			remoteInfo = "Pods-otoklixSubmition";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0450DEBE7B2C75AF16BF4E82BFBE8C37 /* Pods-otoklixSubmitionTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-otoklixSubmitionTests.modulemap"; sourceTree = "<group>"; };
+		07AA0FE7BA21AC6026179E049CFA68C7 /* Pods-otoklixSubmition-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-otoklixSubmition-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F5B8A98FA1C250E96E48E70A8610149 /* Pods-otoklixSubmitionTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-otoklixSubmitionTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		319F08D84AF2D8BA645C9DB64DABB541 /* Pods-otoklixSubmition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-otoklixSubmition-Info.plist"; sourceTree = "<group>"; };
+		32CA7025C89E4E46E32DA2E16E21A174 /* Pods-otoklixSubmition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-otoklixSubmition-umbrella.h"; sourceTree = "<group>"; };
+		3447DCB1BD10CA0AD72C672CDD3A60C2 /* Pods-otoklixSubmition-otoklixSubmitionUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-otoklixSubmition-otoklixSubmitionUITests-umbrella.h"; sourceTree = "<group>"; };
+		356E601CD9F0FBBD4A7E35F570DF46A8 /* Pods-otoklixSubmitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-otoklixSubmitionTests.release.xcconfig"; sourceTree = "<group>"; };
+		396A8E20F4DE5E9FE18982A4D77133B2 /* Pods-otoklixSubmition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-otoklixSubmition-dummy.m"; sourceTree = "<group>"; };
+		3E6825458649C877070E54F1815052BC /* Pods-otoklixSubmition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-otoklixSubmition.debug.xcconfig"; sourceTree = "<group>"; };
+		5DC554EC12A795348EF62A39965D31F8 /* Pods-otoklixSubmition-otoklixSubmitionUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-otoklixSubmition-otoklixSubmitionUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F0F17F04734EA3A3E2C690B899953B6 /* Pods-otoklixSubmitionTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-otoklixSubmitionTests"; path = Pods_otoklixSubmitionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F26479E0C11888DA681A1D5B548DABA /* Pods-otoklixSubmition-otoklixSubmitionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-otoklixSubmition-otoklixSubmitionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		669F444D97C29C76612C62E0BFC22F82 /* Pods-otoklixSubmition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-otoklixSubmition.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D49B30AC8B035D4E93B2F07B69E2478 /* Pods-otoklixSubmition-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-otoklixSubmition-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7FDBDF020240CFDAB72AC77D6EDBBC20 /* Pods-otoklixSubmition-otoklixSubmitionUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-otoklixSubmition-otoklixSubmitionUITests-dummy.m"; sourceTree = "<group>"; };
+		81880501C158C1959B609D59CEEB0938 /* Pods-otoklixSubmitionTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-otoklixSubmitionTests-dummy.m"; sourceTree = "<group>"; };
+		85644519B0AE96C90A97C30BD6B96D61 /* Pods-otoklixSubmition-otoklixSubmitionUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-otoklixSubmition-otoklixSubmitionUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A455E43D3A526F3B76ABFEB32B38606F /* Pods-otoklixSubmition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-otoklixSubmition.release.xcconfig"; sourceTree = "<group>"; };
+		B1D24087A2B53521553126DF3F550983 /* Pods-otoklixSubmition-otoklixSubmitionUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-otoklixSubmition-otoklixSubmitionUITests.modulemap"; sourceTree = "<group>"; };
+		C10B0CD959503D9377A30A79E22B2154 /* Pods-otoklixSubmition */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-otoklixSubmition"; path = Pods_otoklixSubmition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1EFE5F1EA67F607BBAF655FDEC5F6B /* Pods-otoklixSubmition-otoklixSubmitionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-otoklixSubmition-otoklixSubmitionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCBD4572A8D77A0668B7041BC04CA1E4 /* Pods-otoklixSubmitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-otoklixSubmitionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D165F9441ABBF35D9E7798B980F6A392 /* Pods-otoklixSubmitionTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-otoklixSubmitionTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D3D42985110B2BA1ABBBD4EFBDB411CD /* Pods-otoklixSubmition-otoklixSubmitionUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-otoklixSubmition-otoklixSubmitionUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7BC03CDAE57D337268564AC009F144D /* Pods-otoklixSubmitionTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-otoklixSubmitionTests-Info.plist"; sourceTree = "<group>"; };
+		E7DE8C41C88E7B5F480AB8F87485D03C /* Pods-otoklixSubmitionTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-otoklixSubmitionTests-umbrella.h"; sourceTree = "<group>"; };
+		F7C0913D0B1912DB07B49F4D99E8B873 /* Pods-otoklixSubmition-otoklixSubmitionUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-otoklixSubmition-otoklixSubmitionUITests"; path = Pods_otoklixSubmition_otoklixSubmitionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27CA6CCF66D50EAC70A5D4D9C922C96D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2E56A87832A04C39EB31B7CCB07D87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC85B48403CC95B33ADC6407B6DE14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE1B05616989893547DCC97E91A80A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C51EA8548CA06132545FCBC74049BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697532ECEE6DEEE7896F0F27E5A1F1C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		039E43D3B3D4CE08E94E35CFD19F7DCF /* Pods-otoklixSubmition */ = {
+			isa = PBXGroup;
+			children = (
+				669F444D97C29C76612C62E0BFC22F82 /* Pods-otoklixSubmition.modulemap */,
+				7D49B30AC8B035D4E93B2F07B69E2478 /* Pods-otoklixSubmition-acknowledgements.markdown */,
+				07AA0FE7BA21AC6026179E049CFA68C7 /* Pods-otoklixSubmition-acknowledgements.plist */,
+				396A8E20F4DE5E9FE18982A4D77133B2 /* Pods-otoklixSubmition-dummy.m */,
+				319F08D84AF2D8BA645C9DB64DABB541 /* Pods-otoklixSubmition-Info.plist */,
+				32CA7025C89E4E46E32DA2E16E21A174 /* Pods-otoklixSubmition-umbrella.h */,
+				3E6825458649C877070E54F1815052BC /* Pods-otoklixSubmition.debug.xcconfig */,
+				A455E43D3A526F3B76ABFEB32B38606F /* Pods-otoklixSubmition.release.xcconfig */,
+			);
+			name = "Pods-otoklixSubmition";
+			path = "Target Support Files/Pods-otoklixSubmition";
+			sourceTree = "<group>";
+		};
+		3D18AEB33C72A21CD8B9B587646C6AC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C10B0CD959503D9377A30A79E22B2154 /* Pods-otoklixSubmition */,
+				F7C0913D0B1912DB07B49F4D99E8B873 /* Pods-otoklixSubmition-otoklixSubmitionUITests */,
+				5F0F17F04734EA3A3E2C690B899953B6 /* Pods-otoklixSubmitionTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3D18AEB33C72A21CD8B9B587646C6AC8 /* Products */,
+				F99B46222173CCBCEC03816FECE4EC87 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D40BCDC353FAE434152FC72C44DF19E7 /* Pods-otoklixSubmitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				0450DEBE7B2C75AF16BF4E82BFBE8C37 /* Pods-otoklixSubmitionTests.modulemap */,
+				D165F9441ABBF35D9E7798B980F6A392 /* Pods-otoklixSubmitionTests-acknowledgements.markdown */,
+				0F5B8A98FA1C250E96E48E70A8610149 /* Pods-otoklixSubmitionTests-acknowledgements.plist */,
+				81880501C158C1959B609D59CEEB0938 /* Pods-otoklixSubmitionTests-dummy.m */,
+				D7BC03CDAE57D337268564AC009F144D /* Pods-otoklixSubmitionTests-Info.plist */,
+				E7DE8C41C88E7B5F480AB8F87485D03C /* Pods-otoklixSubmitionTests-umbrella.h */,
+				CCBD4572A8D77A0668B7041BC04CA1E4 /* Pods-otoklixSubmitionTests.debug.xcconfig */,
+				356E601CD9F0FBBD4A7E35F570DF46A8 /* Pods-otoklixSubmitionTests.release.xcconfig */,
+			);
+			name = "Pods-otoklixSubmitionTests";
+			path = "Target Support Files/Pods-otoklixSubmitionTests";
+			sourceTree = "<group>";
+		};
+		D6324E3FEEC74D764A20F1EC9EB1781F /* Pods-otoklixSubmition-otoklixSubmitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1D24087A2B53521553126DF3F550983 /* Pods-otoklixSubmition-otoklixSubmitionUITests.modulemap */,
+				5DC554EC12A795348EF62A39965D31F8 /* Pods-otoklixSubmition-otoklixSubmitionUITests-acknowledgements.markdown */,
+				D3D42985110B2BA1ABBBD4EFBDB411CD /* Pods-otoklixSubmition-otoklixSubmitionUITests-acknowledgements.plist */,
+				7FDBDF020240CFDAB72AC77D6EDBBC20 /* Pods-otoklixSubmition-otoklixSubmitionUITests-dummy.m */,
+				85644519B0AE96C90A97C30BD6B96D61 /* Pods-otoklixSubmition-otoklixSubmitionUITests-Info.plist */,
+				3447DCB1BD10CA0AD72C672CDD3A60C2 /* Pods-otoklixSubmition-otoklixSubmitionUITests-umbrella.h */,
+				CB1EFE5F1EA67F607BBAF655FDEC5F6B /* Pods-otoklixSubmition-otoklixSubmitionUITests.debug.xcconfig */,
+				5F26479E0C11888DA681A1D5B548DABA /* Pods-otoklixSubmition-otoklixSubmitionUITests.release.xcconfig */,
+			);
+			name = "Pods-otoklixSubmition-otoklixSubmitionUITests";
+			path = "Target Support Files/Pods-otoklixSubmition-otoklixSubmitionUITests";
+			sourceTree = "<group>";
+		};
+		F99B46222173CCBCEC03816FECE4EC87 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				039E43D3B3D4CE08E94E35CFD19F7DCF /* Pods-otoklixSubmition */,
+				D6324E3FEEC74D764A20F1EC9EB1781F /* Pods-otoklixSubmition-otoklixSubmitionUITests */,
+				D40BCDC353FAE434152FC72C44DF19E7 /* Pods-otoklixSubmitionTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37949D3810D3E6F6FDE2E4F3617B6D6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15AE3E04A23456684A3BFCE1C8D0B150 /* Pods-otoklixSubmition-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA7DCEF68D6C20E0262958C11E81662 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35E90DCB28FE6D2F2C019E861F89289 /* Pods-otoklixSubmition-otoklixSubmitionUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798D97675FF66F8059CDB0B0576B1F60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429D2396754B583A55AEF53871586C6F /* Pods-otoklixSubmitionTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E27123EB67A57E06C56AC14FB6AC4D1 /* Pods-otoklixSubmition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21526DF920801A02C632E2B9E135BD10 /* Build configuration list for PBXNativeTarget "Pods-otoklixSubmition" */;
+			buildPhases = (
+				37949D3810D3E6F6FDE2E4F3617B6D6B /* Headers */,
+				189FABC1ABA2E6B7E1E7A79EAA1AB6A0 /* Sources */,
+				27CA6CCF66D50EAC70A5D4D9C922C96D /* Frameworks */,
+				672EEDBAD65717EEB657448227DFA592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-otoklixSubmition";
+			productName = Pods_otoklixSubmition;
+			productReference = C10B0CD959503D9377A30A79E22B2154 /* Pods-otoklixSubmition */;
+			productType = "com.apple.product-type.framework";
+		};
+		433D792FB55305E3C170085DD5FA4D08 /* Pods-otoklixSubmitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EFA0791E5A4F0809294FDEBE66DD11A /* Build configuration list for PBXNativeTarget "Pods-otoklixSubmitionTests" */;
+			buildPhases = (
+				798D97675FF66F8059CDB0B0576B1F60 /* Headers */,
+				2B384CD3A9934C032463427F632D837C /* Sources */,
+				3EC85B48403CC95B33ADC6407B6DE14F /* Frameworks */,
+				6FEF0D1B5CCC337FFDE6FF7538F30C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2393BA7CC9DF510D8C30CEF04C6D0F83 /* PBXTargetDependency */,
+			);
+			name = "Pods-otoklixSubmitionTests";
+			productName = Pods_otoklixSubmitionTests;
+			productReference = 5F0F17F04734EA3A3E2C690B899953B6 /* Pods-otoklixSubmitionTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		614272299B97B303048B23047768D191 /* Pods-otoklixSubmition-otoklixSubmitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB35A239877F8C23B5C532DE20CC212 /* Build configuration list for PBXNativeTarget "Pods-otoklixSubmition-otoklixSubmitionUITests" */;
+			buildPhases = (
+				5FA7DCEF68D6C20E0262958C11E81662 /* Headers */,
+				2D808CC6A546F6AEC16A2F135559E0B6 /* Sources */,
+				A0C51EA8548CA06132545FCBC74049BE /* Frameworks */,
+				E897B68BF600BA24D1E8409C55FFFA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-otoklixSubmition-otoklixSubmitionUITests";
+			productName = Pods_otoklixSubmition_otoklixSubmitionUITests;
+			productReference = F7C0913D0B1912DB07B49F4D99E8B873 /* Pods-otoklixSubmition-otoklixSubmitionUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3D18AEB33C72A21CD8B9B587646C6AC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E27123EB67A57E06C56AC14FB6AC4D1 /* Pods-otoklixSubmition */,
+				614272299B97B303048B23047768D191 /* Pods-otoklixSubmition-otoklixSubmitionUITests */,
+				433D792FB55305E3C170085DD5FA4D08 /* Pods-otoklixSubmitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		672EEDBAD65717EEB657448227DFA592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FEF0D1B5CCC337FFDE6FF7538F30C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E897B68BF600BA24D1E8409C55FFFA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189FABC1ABA2E6B7E1E7A79EAA1AB6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC6DE6475F560F52601D88C031CA7B4 /* Pods-otoklixSubmition-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B384CD3A9934C032463427F632D837C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F6CFD873A2BEC430AA7CB5B8BCA4EB /* Pods-otoklixSubmitionTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D808CC6A546F6AEC16A2F135559E0B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE42E61BEE78539393F15A2E53F644B /* Pods-otoklixSubmition-otoklixSubmitionUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2393BA7CC9DF510D8C30CEF04C6D0F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-otoklixSubmition";
+			target = 0E27123EB67A57E06C56AC14FB6AC4D1 /* Pods-otoklixSubmition */;
+			targetProxy = A7F1AAB6D67FDE9154F3AAC9E3BFD454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20A41B43BCD47D529E47FB7CEF31CAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A455E43D3A526F3B76ABFEB32B38606F /* Pods-otoklixSubmition.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A3E6C297DE17321DBE69671E6950A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E6825458649C877070E54F1815052BC /* Pods-otoklixSubmition.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C0AB7A28ADEBBF333A6028F2F0DA61CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F26479E0C11888DA681A1D5B548DABA /* Pods-otoklixSubmition-otoklixSubmitionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-otoklixSubmition-otoklixSubmitionUITests/Pods-otoklixSubmition-otoklixSubmitionUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-otoklixSubmition-otoklixSubmitionUITests/Pods-otoklixSubmition-otoklixSubmitionUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E2BB198E8C518EF976C305F10592C5BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356E601CD9F0FBBD4A7E35F570DF46A8 /* Pods-otoklixSubmitionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-otoklixSubmitionTests/Pods-otoklixSubmitionTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-otoklixSubmitionTests/Pods-otoklixSubmitionTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3999D7B844B11D803F95C34DB80048A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB1EFE5F1EA67F607BBAF655FDEC5F6B /* Pods-otoklixSubmition-otoklixSubmitionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-otoklixSubmition-otoklixSubmitionUITests/Pods-otoklixSubmition-otoklixSubmitionUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-otoklixSubmition-otoklixSubmitionUITests/Pods-otoklixSubmition-otoklixSubmitionUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE1E8A0F686BC7873215F36CE36A9E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCBD4572A8D77A0668B7041BC04CA1E4 /* Pods-otoklixSubmitionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-otoklixSubmitionTests/Pods-otoklixSubmitionTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-otoklixSubmitionTests/Pods-otoklixSubmitionTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21526DF920801A02C632E2B9E135BD10 /* Build configuration list for PBXNativeTarget "Pods-otoklixSubmition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3E6C297DE17321DBE69671E6950A45 /* Debug */,
+				20A41B43BCD47D529E47FB7CEF31CAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EFA0791E5A4F0809294FDEBE66DD11A /* Build configuration list for PBXNativeTarget "Pods-otoklixSubmitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1E8A0F686BC7873215F36CE36A9E18 /* Debug */,
+				E2BB198E8C518EF976C305F10592C5BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB35A239877F8C23B5C532DE20CC212 /* Build configuration list for PBXNativeTarget "Pods-otoklixSubmition-otoklixSubmitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3999D7B844B11D803F95C34DB80048A /* Debug */,
+				C0AB7A28ADEBBF333A6028F2F0DA61CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
