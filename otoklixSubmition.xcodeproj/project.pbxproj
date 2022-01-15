@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,18 @@
 		9F0771AF2792C50B00CC61B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0771AD2792C50B00CC61B1 /* LaunchScreen.storyboard */; };
 		9F0771BA2792C50C00CC61B1 /* otoklixSubmitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0771B92792C50C00CC61B1 /* otoklixSubmitionTests.swift */; };
 		9F0771C52792C50C00CC61B1 /* otoklixSubmitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0771C42792C50C00CC61B1 /* otoklixSubmitionUITests.swift */; };
+		9FA273D62792CD410004AD29 /* TableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273D52792CD410004AD29 /* TableView+Extension.swift */; };
+		9FA273D82792CD810004AD29 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273D72792CD810004AD29 /* Data+Extension.swift */; };
+		9FA273DB2792CDCE0004AD29 /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273DA2792CDCE0004AD29 /* Json.swift */; };
+		9FA273DD2792CE060004AD29 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273DC2792CE060004AD29 /* String+Extension.swift */; };
+		9FA273DF2792CE1E0004AD29 /* Encodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273DE2792CE1E0004AD29 /* Encodable+Extension.swift */; };
+		9FA273E12792CE360004AD29 /* Reactive+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273E02792CE360004AD29 /* Reactive+Extension.swift */; };
+		9FA273E42792CE890004AD29 /* EXCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273E32792CE890004AD29 /* EXCoordinator.swift */; };
+		9FA273E82792CEF20004AD29 /* CoordiantorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273E72792CEF20004AD29 /* CoordiantorResult.swift */; };
+		9FA273EB2792CF3C0004AD29 /* EXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273EA2792CF3C0004AD29 /* EXViewController.swift */; };
+		9FA273ED2792CFCD0004AD29 /* EXTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273EC2792CFCD0004AD29 /* EXTableViewCell.swift */; };
+		9FA273EF2792D0740004AD29 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273EE2792D0740004AD29 /* HttpMethod.swift */; };
+		9FA273F22792D4200004AD29 /* EXViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273F12792D4200004AD29 /* EXViewModel.swift */; };
 		DCD25685C29A5CB1E7FF2E15 /* Pods_otoklixSubmitionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4F2F759121CD07349DDEA0 /* Pods_otoklixSubmitionTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +70,18 @@
 		9F0771C02792C50C00CC61B1 /* otoklixSubmitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = otoklixSubmitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0771C42792C50C00CC61B1 /* otoklixSubmitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otoklixSubmitionUITests.swift; sourceTree = "<group>"; };
 		9F0771C62792C50C00CC61B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FA273D52792CD410004AD29 /* TableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Extension.swift"; sourceTree = "<group>"; };
+		9FA273D72792CD810004AD29 /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		9FA273DA2792CDCE0004AD29 /* Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
+		9FA273DC2792CE060004AD29 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		9FA273DE2792CE1E0004AD29 /* Encodable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Extension.swift"; sourceTree = "<group>"; };
+		9FA273E02792CE360004AD29 /* Reactive+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reactive+Extension.swift"; sourceTree = "<group>"; };
+		9FA273E32792CE890004AD29 /* EXCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXCoordinator.swift; sourceTree = "<group>"; };
+		9FA273E72792CEF20004AD29 /* CoordiantorResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordiantorResult.swift; sourceTree = "<group>"; };
+		9FA273EA2792CF3C0004AD29 /* EXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXViewController.swift; sourceTree = "<group>"; };
+		9FA273EC2792CFCD0004AD29 /* EXTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXTableViewCell.swift; sourceTree = "<group>"; };
+		9FA273EE2792D0740004AD29 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		9FA273F12792D4200004AD29 /* EXViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXViewModel.swift; sourceTree = "<group>"; };
 		A83E8EF17D1AA5B184F2FF16 /* Pods_otoklixSubmition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_otoklixSubmition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFCD7D976E4FCD0434F44D5 /* Pods-otoklixSubmitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmitionTests.debug.xcconfig"; path = "Target Support Files/Pods-otoklixSubmitionTests/Pods-otoklixSubmitionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3ED351C4EEF27B22C161B58 /* Pods-otoklixSubmition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmition.release.xcconfig"; path = "Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +128,7 @@
 		9F0771962792C50900CC61B1 = {
 			isa = PBXGroup;
 			children = (
+				9FA273D32792CC9F0004AD29 /* Core */,
 				9F0771A12792C50A00CC61B1 /* otoklixSubmition */,
 				9F0771B82792C50C00CC61B1 /* otoklixSubmitionTests */,
 				9F0771C32792C50C00CC61B1 /* otoklixSubmitionUITests */,
@@ -155,6 +180,81 @@
 			path = otoklixSubmitionUITests;
 			sourceTree = "<group>";
 		};
+		9FA273D32792CC9F0004AD29 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9FA273E22792CE760004AD29 /* Base */,
+				9FA273D92792CDBE0004AD29 /* Utils */,
+				9FA273D42792CD320004AD29 /* Extension */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9FA273D42792CD320004AD29 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9FA273D52792CD410004AD29 /* TableView+Extension.swift */,
+				9FA273D72792CD810004AD29 /* Data+Extension.swift */,
+				9FA273DC2792CE060004AD29 /* String+Extension.swift */,
+				9FA273DE2792CE1E0004AD29 /* Encodable+Extension.swift */,
+				9FA273E02792CE360004AD29 /* Reactive+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9FA273D92792CDBE0004AD29 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9FA273DA2792CDCE0004AD29 /* Json.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9FA273E22792CE760004AD29 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9FA273F02792D4000004AD29 /* ViewModel */,
+				9FA273E92792CF2C0004AD29 /* View */,
+				9FA273E62792CED50004AD29 /* Model */,
+				9FA273E52792CECA0004AD29 /* Coordinator */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9FA273E52792CECA0004AD29 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9FA273E32792CE890004AD29 /* EXCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		9FA273E62792CED50004AD29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FA273E72792CEF20004AD29 /* CoordiantorResult.swift */,
+				9FA273EE2792D0740004AD29 /* HttpMethod.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FA273E92792CF2C0004AD29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FA273EA2792CF3C0004AD29 /* EXViewController.swift */,
+				9FA273EC2792CFCD0004AD29 /* EXTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FA273F02792D4000004AD29 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9FA273F12792D4200004AD29 /* EXViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		D9954434CF95CFAFD67BFF7B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +265,6 @@
 				BAFCD7D976E4FCD0434F44D5 /* Pods-otoklixSubmitionTests.debug.xcconfig */,
 				08007B0A422497F64367BB84 /* Pods-otoklixSubmitionTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -408,8 +507,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F0771A72792C50A00CC61B1 /* ViewController.swift in Sources */,
+				9FA273DF2792CE1E0004AD29 /* Encodable+Extension.swift in Sources */,
+				9FA273DD2792CE060004AD29 /* String+Extension.swift in Sources */,
 				9F0771A32792C50A00CC61B1 /* AppDelegate.swift in Sources */,
+				9FA273E12792CE360004AD29 /* Reactive+Extension.swift in Sources */,
+				9FA273D82792CD810004AD29 /* Data+Extension.swift in Sources */,
+				9FA273ED2792CFCD0004AD29 /* EXTableViewCell.swift in Sources */,
+				9FA273DB2792CDCE0004AD29 /* Json.swift in Sources */,
+				9FA273E42792CE890004AD29 /* EXCoordinator.swift in Sources */,
 				9F0771A52792C50A00CC61B1 /* SceneDelegate.swift in Sources */,
+				9FA273EF2792D0740004AD29 /* HttpMethod.swift in Sources */,
+				9FA273EB2792CF3C0004AD29 /* EXViewController.swift in Sources */,
+				9FA273D62792CD410004AD29 /* TableView+Extension.swift in Sources */,
+				9FA273F22792D4200004AD29 /* EXViewModel.swift in Sources */,
+				9FA273E82792CEF20004AD29 /* CoordiantorResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
