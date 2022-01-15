@@ -6,3 +6,10 @@
 //
 
 import Foundation
+public class HomeCoordinator: EXCoordinator {
+    
+    public override func start() {
+        let viewController = HomeVC()
+        navigation.viewControllers = [viewController]
+    }
+}

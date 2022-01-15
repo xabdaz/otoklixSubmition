@@ -16,5 +16,6 @@ extension Container {
 public extension Container {
     func registerCoordinator() {
         autoregister(AppCoordinator.self, initializer: AppCoordinator.init)
+        autoregister(HomeCoordinator.self, initializer: HomeCoordinator.init)
     }
 }
