@@ -39,6 +39,15 @@ class otoklixListTests: XCTestCase {
         }
     }
 
+    func testOutIndex() {
+        let data = self.getData()
+        // Provie any Codable struct
+        let resource = try? JSONDecoder().decode(PostResponse.self, from: data)
+        let value = resource?[safe: 14]
+        
+        XCTAssertNil(value)
+    }
+
     func testJSONDecoding() {
 
         let data = self.getData()
@@ -90,5 +99,19 @@ class otoklixListTests: XCTestCase {
         XCTAssertNil(value)
     }
 
+    func testContentBlank() {
+        let data = self.getData()
+
+        let resource = try? JSONDecoder().decode(PostResponse.self, from: data)
+        let value = resource?[12].content
+        XCTAssertEqual(value, "")
+    }
+
+    func testWithoutContent() {
+        let data = self.getData()
+        let resource = try? JSONDecoder().decode(PostResponse.self, from: data)
+        let value = resource?[13].content
+        XCTAssertNil(value)
+    }
     
 }

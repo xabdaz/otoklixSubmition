@@ -9,6 +9,7 @@ import Foundation
 import CoreImage
 typealias PostResponse = [EXPostModel]
 typealias CodingKeys = (String, CodingKey)
+
 struct EXPostModel: Codable {
     let id: String?
     let title, content, publishedAt, createdAt: String?
