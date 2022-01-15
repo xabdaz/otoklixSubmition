@@ -7,7 +7,14 @@
 
 import Foundation
 public extension Optional where Wrapped == String {
+
     var orEmpty: String {
         return self ?? ""
+    }
+}
+
+public extension String {
+    var int: Int {
+        return Int(self) ?? 0
     }
 }
