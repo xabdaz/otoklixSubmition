@@ -8,7 +8,7 @@
         "updated_at": "2022-01-15T04:54:35.811Z"
     },
     {
-        "id": 385,
+        "id": "385",
         "title": "tet",
         "content": "test",
         "published_at": "2022-01-15T05:03:20.663Z",
@@ -16,7 +16,7 @@
         "updated_at": "2022-01-15T05:03:20.666Z"
     },
     {
-        "id": 375,
+        "id": "",
         "title": "Hello cui",
         "content": "Hello world dang dang",
         "published_at": "2022-01-15T04:14:14.856Z",
@@ -24,7 +24,7 @@
         "updated_at": "2022-01-15T04:14:14.859Z"
     },
     {
-        "id": 373,
+        "id": null,
         "title": "Why do we use it?",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
         "published_at": "2022-01-14T23:12:06.253Z",
@@ -32,7 +32,6 @@
         "updated_at": "2022-01-14T23:21:41.916Z"
     },
     {
-        "id": 291,
         "title": "Messi Saja Tak Akan Cukup Bawa PSG Juara Liga Champions",
         "content": "Paris - Paris St. Germain otomatis menjadi favorit teratas Liga Champions setelah Lionel Messi bergabung. Namun, Messi diyakini tidak akan cukup membawa PSG juara.\n\nMegabintang sepakbola Argentina itu menjadi salah satu dari sederet rekrutan fantastis PSG di musim panas. Messi merupakan salah satu pemain tersukses di Liga Champions setelah memenangi empat medali juara, yang seluruhnya didapat saat berseragam Barcelona.\n\nBersama PSG, Lionel Messi sukses mencetak lima gol dalam lima penampilan di fase grup. Akan tetapi, Les Parisiens belum tampak meyakinkan usai hanya finis sebagai runner-up di bawah Manchester City.\n\nTidak dipungkiri bahwa PSG hanya akan dianggap sukses pada musim ini apabila menjuarai Ligue 1 dan Liga Champions. Mantan pemain top Prancis, Patrice Evra, berpendapat bahwa PSG butuh lebih dari sekadar Messi untuk menjadi juara Eropa. Skuad PSG juga mesti memiliki mental juara.\n\n\"Mereka merekrut Messi, tapi dia bukan pemain yang akan membuat mereka memenangi Liga Champions,\" ujar Evra kepada Le Parisien, yang dikutip The Sun.\n\n\"Itu adalah usaha kolektif, sebuah kondisi mental dari segenap tim sebagai keseluruhan. Sama sekali tidak mudah, saya pernah bermain di lima final dan empat kali kalah,\" kata mantan pemain Manchester United dan Juventus itu.\n\nSebelum kedatangan Lionel Messi, PSG selalu berhasil menembus empat besar Liga Champions dalam dua musim terakhir. Di musim ini, investasi besar PSG akan menghadapi ujian sangat besar usai lolos ke babak 16 besar karena berjumpa dengan Real Madrid.\n\nSumber: https://sport.detik.com/sepakbola/bola-dunia/d-5897295/messi-saja-tak-akan-cukup-bawa-psg-juara-liga-champions?_ga=2.229001243.60006909.1642093863-144674117.1642093863",
         "published_at": "2022-01-05T01:49:03.624Z",
