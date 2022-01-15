@@ -27,6 +27,7 @@
 		9FA273E82792CEF20004AD29 /* CoordiantorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273E72792CEF20004AD29 /* CoordiantorResult.swift */; };
 		9FA273EB2792CF3C0004AD29 /* EXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273EA2792CF3C0004AD29 /* EXViewController.swift */; };
 		9FA273ED2792CFCD0004AD29 /* EXTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273EC2792CFCD0004AD29 /* EXTableViewCell.swift */; };
+		9FA273EF2792D0740004AD29 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273EE2792D0740004AD29 /* HttpMethod.swift */; };
 		DCD25685C29A5CB1E7FF2E15 /* Pods_otoklixSubmitionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4F2F759121CD07349DDEA0 /* Pods_otoklixSubmitionTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,7 @@
 		9FA273E72792CEF20004AD29 /* CoordiantorResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordiantorResult.swift; sourceTree = "<group>"; };
 		9FA273EA2792CF3C0004AD29 /* EXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXViewController.swift; sourceTree = "<group>"; };
 		9FA273EC2792CFCD0004AD29 /* EXTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXTableViewCell.swift; sourceTree = "<group>"; };
+		9FA273EE2792D0740004AD29 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 		A83E8EF17D1AA5B184F2FF16 /* Pods_otoklixSubmition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_otoklixSubmition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFCD7D976E4FCD0434F44D5 /* Pods-otoklixSubmitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmitionTests.debug.xcconfig"; path = "Target Support Files/Pods-otoklixSubmitionTests/Pods-otoklixSubmitionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3ED351C4EEF27B22C161B58 /* Pods-otoklixSubmition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmition.release.xcconfig"; path = "Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition.release.xcconfig"; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				9FA273E72792CEF20004AD29 /* CoordiantorResult.swift */,
+				9FA273EE2792D0740004AD29 /* HttpMethod.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -502,6 +505,7 @@
 				9FA273DB2792CDCE0004AD29 /* Json.swift in Sources */,
 				9FA273E42792CE890004AD29 /* EXCoordinator.swift in Sources */,
 				9F0771A52792C50A00CC61B1 /* SceneDelegate.swift in Sources */,
+				9FA273EF2792D0740004AD29 /* HttpMethod.swift in Sources */,
 				9FA273EB2792CF3C0004AD29 /* EXViewController.swift in Sources */,
 				9FA273D62792CD410004AD29 /* TableView+Extension.swift in Sources */,
 				9FA273E82792CEF20004AD29 /* CoordiantorResult.swift in Sources */,
