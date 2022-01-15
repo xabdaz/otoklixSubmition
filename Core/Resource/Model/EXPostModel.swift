@@ -54,9 +54,3 @@ struct DefaultPost {
     let createdAt: String? = nil
     let updatedAt: String? = nil
 }
-
-public extension Int {
-    var string: String {
-        return String(self)
-    }
-}
