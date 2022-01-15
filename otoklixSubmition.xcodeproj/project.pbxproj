@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		9F0771AF2792C50B00CC61B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0771AD2792C50B00CC61B1 /* LaunchScreen.storyboard */; };
 		9F0771BA2792C50C00CC61B1 /* otoklixSubmitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0771B92792C50C00CC61B1 /* otoklixSubmitionTests.swift */; };
 		9F0771C52792C50C00CC61B1 /* otoklixSubmitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0771C42792C50C00CC61B1 /* otoklixSubmitionUITests.swift */; };
+		9FA273D62792CD410004AD29 /* TableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273D52792CD410004AD29 /* TableView+Extension.swift */; };
 		DCD25685C29A5CB1E7FF2E15 /* Pods_otoklixSubmitionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4F2F759121CD07349DDEA0 /* Pods_otoklixSubmitionTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		9F0771C02792C50C00CC61B1 /* otoklixSubmitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = otoklixSubmitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0771C42792C50C00CC61B1 /* otoklixSubmitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otoklixSubmitionUITests.swift; sourceTree = "<group>"; };
 		9F0771C62792C50C00CC61B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FA273D52792CD410004AD29 /* TableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Extension.swift"; sourceTree = "<group>"; };
 		A83E8EF17D1AA5B184F2FF16 /* Pods_otoklixSubmition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_otoklixSubmition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFCD7D976E4FCD0434F44D5 /* Pods-otoklixSubmitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmitionTests.debug.xcconfig"; path = "Target Support Files/Pods-otoklixSubmitionTests/Pods-otoklixSubmitionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3ED351C4EEF27B22C161B58 /* Pods-otoklixSubmition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmition.release.xcconfig"; path = "Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		9F0771962792C50900CC61B1 = {
 			isa = PBXGroup;
 			children = (
+				9FA273D32792CC9F0004AD29 /* Core */,
 				9F0771A12792C50A00CC61B1 /* otoklixSubmition */,
 				9F0771B82792C50C00CC61B1 /* otoklixSubmitionTests */,
 				9F0771C32792C50C00CC61B1 /* otoklixSubmitionUITests */,
@@ -155,6 +158,22 @@
 			path = otoklixSubmitionUITests;
 			sourceTree = "<group>";
 		};
+		9FA273D32792CC9F0004AD29 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9FA273D42792CD320004AD29 /* Extension */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9FA273D42792CD320004AD29 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9FA273D52792CD410004AD29 /* TableView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		D9954434CF95CFAFD67BFF7B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +184,6 @@
 				BAFCD7D976E4FCD0434F44D5 /* Pods-otoklixSubmitionTests.debug.xcconfig */,
 				08007B0A422497F64367BB84 /* Pods-otoklixSubmitionTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -410,6 +428,7 @@
 				9F0771A72792C50A00CC61B1 /* ViewController.swift in Sources */,
 				9F0771A32792C50A00CC61B1 /* AppDelegate.swift in Sources */,
 				9F0771A52792C50A00CC61B1 /* SceneDelegate.swift in Sources */,
+				9FA273D62792CD410004AD29 /* TableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
