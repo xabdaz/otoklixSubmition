@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F0771A32792C50A00CC61B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0771A22792C50A00CC61B1 /* AppDelegate.swift */; };
+		9F0771A52792C50A00CC61B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0771A42792C50A00CC61B1 /* SceneDelegate.swift */; };
+		9F0771A72792C50A00CC61B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0771A62792C50A00CC61B1 /* ViewController.swift */; };
+		9F0771AA2792C50A00CC61B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0771A82792C50A00CC61B1 /* Main.storyboard */; };
+		9F0771AC2792C50B00CC61B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0771AB2792C50B00CC61B1 /* Assets.xcassets */; };
+		9F0771AF2792C50B00CC61B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0771AD2792C50B00CC61B1 /* LaunchScreen.storyboard */; };
+		9F0771BA2792C50C00CC61B1 /* otoklixSubmitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0771B92792C50C00CC61B1 /* otoklixSubmitionTests.swift */; };
+		9F0771C52792C50C00CC61B1 /* otoklixSubmitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0771C42792C50C00CC61B1 /* otoklixSubmitionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F0771B62792C50C00CC61B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F0771972792C50A00CC61B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F07719E2792C50A00CC61B1;
+			remoteInfo = otoklixSubmition;
+		};
+		9F0771C12792C50C00CC61B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F0771972792C50A00CC61B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F07719E2792C50A00CC61B1;
+			remoteInfo = otoklixSubmition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F07719F2792C50A00CC61B1 /* otoklixSubmition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otoklixSubmition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0771A22792C50A00CC61B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F0771A42792C50A00CC61B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9F0771A62792C50A00CC61B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F0771A92792C50A00CC61B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F0771AB2792C50B00CC61B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F0771AE2792C50B00CC61B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F0771B02792C50B00CC61B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0771B52792C50C00CC61B1 /* otoklixSubmitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = otoklixSubmitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0771B92792C50C00CC61B1 /* otoklixSubmitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otoklixSubmitionTests.swift; sourceTree = "<group>"; };
+		9F0771BB2792C50C00CC61B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0771C02792C50C00CC61B1 /* otoklixSubmitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = otoklixSubmitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0771C42792C50C00CC61B1 /* otoklixSubmitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otoklixSubmitionUITests.swift; sourceTree = "<group>"; };
+		9F0771C62792C50C00CC61B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F07719C2792C50A00CC61B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0771B22792C50C00CC61B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0771BD2792C50C00CC61B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F0771962792C50900CC61B1 = {
+			isa = PBXGroup;
+			children = (
+				9F0771A12792C50A00CC61B1 /* otoklixSubmition */,
+				9F0771B82792C50C00CC61B1 /* otoklixSubmitionTests */,
+				9F0771C32792C50C00CC61B1 /* otoklixSubmitionUITests */,
+				9F0771A02792C50A00CC61B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F0771A02792C50A00CC61B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F07719F2792C50A00CC61B1 /* otoklixSubmition.app */,
+				9F0771B52792C50C00CC61B1 /* otoklixSubmitionTests.xctest */,
+				9F0771C02792C50C00CC61B1 /* otoklixSubmitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F0771A12792C50A00CC61B1 /* otoklixSubmition */ = {
+			isa = PBXGroup;
+			children = (
+				9F0771A22792C50A00CC61B1 /* AppDelegate.swift */,
+				9F0771A42792C50A00CC61B1 /* SceneDelegate.swift */,
+				9F0771A62792C50A00CC61B1 /* ViewController.swift */,
+				9F0771A82792C50A00CC61B1 /* Main.storyboard */,
+				9F0771AB2792C50B00CC61B1 /* Assets.xcassets */,
+				9F0771AD2792C50B00CC61B1 /* LaunchScreen.storyboard */,
+				9F0771B02792C50B00CC61B1 /* Info.plist */,
+			);
+			path = otoklixSubmition;
+			sourceTree = "<group>";
+		};
+		9F0771B82792C50C00CC61B1 /* otoklixSubmitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F0771B92792C50C00CC61B1 /* otoklixSubmitionTests.swift */,
+				9F0771BB2792C50C00CC61B1 /* Info.plist */,
+			);
+			path = otoklixSubmitionTests;
+			sourceTree = "<group>";
+		};
+		9F0771C32792C50C00CC61B1 /* otoklixSubmitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F0771C42792C50C00CC61B1 /* otoklixSubmitionUITests.swift */,
+				9F0771C62792C50C00CC61B1 /* Info.plist */,
+			);
+			path = otoklixSubmitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F07719E2792C50A00CC61B1 /* otoklixSubmition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0771C92792C50C00CC61B1 /* Build configuration list for PBXNativeTarget "otoklixSubmition" */;
+			buildPhases = (
+				9F07719B2792C50A00CC61B1 /* Sources */,
+				9F07719C2792C50A00CC61B1 /* Frameworks */,
+				9F07719D2792C50A00CC61B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = otoklixSubmition;
+			productName = otoklixSubmition;
+			productReference = 9F07719F2792C50A00CC61B1 /* otoklixSubmition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F0771B42792C50C00CC61B1 /* otoklixSubmitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0771CC2792C50C00CC61B1 /* Build configuration list for PBXNativeTarget "otoklixSubmitionTests" */;
+			buildPhases = (
+				9F0771B12792C50C00CC61B1 /* Sources */,
+				9F0771B22792C50C00CC61B1 /* Frameworks */,
+				9F0771B32792C50C00CC61B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F0771B72792C50C00CC61B1 /* PBXTargetDependency */,
+			);
+			name = otoklixSubmitionTests;
+			productName = otoklixSubmitionTests;
+			productReference = 9F0771B52792C50C00CC61B1 /* otoklixSubmitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F0771BF2792C50C00CC61B1 /* otoklixSubmitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0771CF2792C50C00CC61B1 /* Build configuration list for PBXNativeTarget "otoklixSubmitionUITests" */;
+			buildPhases = (
+				9F0771BC2792C50C00CC61B1 /* Sources */,
+				9F0771BD2792C50C00CC61B1 /* Frameworks */,
+				9F0771BE2792C50C00CC61B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F0771C22792C50C00CC61B1 /* PBXTargetDependency */,
+			);
+			name = otoklixSubmitionUITests;
+			productName = otoklixSubmitionUITests;
+			productReference = 9F0771C02792C50C00CC61B1 /* otoklixSubmitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F0771972792C50A00CC61B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9F07719E2792C50A00CC61B1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					9F0771B42792C50C00CC61B1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9F07719E2792C50A00CC61B1;
+					};
+					9F0771BF2792C50C00CC61B1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9F07719E2792C50A00CC61B1;
+					};
+				};
+			};
+			buildConfigurationList = 9F07719A2792C50A00CC61B1 /* Build configuration list for PBXProject "otoklixSubmition" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F0771962792C50900CC61B1;
+			productRefGroup = 9F0771A02792C50A00CC61B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F07719E2792C50A00CC61B1 /* otoklixSubmition */,
+				9F0771B42792C50C00CC61B1 /* otoklixSubmitionTests */,
+				9F0771BF2792C50C00CC61B1 /* otoklixSubmitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F07719D2792C50A00CC61B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0771AF2792C50B00CC61B1 /* LaunchScreen.storyboard in Resources */,
+				9F0771AC2792C50B00CC61B1 /* Assets.xcassets in Resources */,
+				9F0771AA2792C50A00CC61B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0771B32792C50C00CC61B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0771BE2792C50C00CC61B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F07719B2792C50A00CC61B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0771A72792C50A00CC61B1 /* ViewController.swift in Sources */,
+				9F0771A32792C50A00CC61B1 /* AppDelegate.swift in Sources */,
+				9F0771A52792C50A00CC61B1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0771B12792C50C00CC61B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0771BA2792C50C00CC61B1 /* otoklixSubmitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0771BC2792C50C00CC61B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0771C52792C50C00CC61B1 /* otoklixSubmitionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F0771B72792C50C00CC61B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F07719E2792C50A00CC61B1 /* otoklixSubmition */;
+			targetProxy = 9F0771B62792C50C00CC61B1 /* PBXContainerItemProxy */;
+		};
+		9F0771C22792C50C00CC61B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F07719E2792C50A00CC61B1 /* otoklixSubmition */;
+			targetProxy = 9F0771C12792C50C00CC61B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F0771A82792C50A00CC61B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F0771A92792C50A00CC61B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F0771AD2792C50B00CC61B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F0771AE2792C50B00CC61B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F0771C72792C50C00CC61B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F0771C82792C50C00CC61B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F0771CA2792C50C00CC61B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QNT26F7HW2;
+				INFOPLIST_FILE = otoklixSubmition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.xabdaz.user.otoklixSubmition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F0771CB2792C50C00CC61B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QNT26F7HW2;
+				INFOPLIST_FILE = otoklixSubmition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.xabdaz.user.otoklixSubmition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F0771CD2792C50C00CC61B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QNT26F7HW2;
+				INFOPLIST_FILE = otoklixSubmitionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.xabdaz.user.otoklixSubmitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/otoklixSubmition.app/otoklixSubmition";
+			};
+			name = Debug;
+		};
+		9F0771CE2792C50C00CC61B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QNT26F7HW2;
+				INFOPLIST_FILE = otoklixSubmitionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.xabdaz.user.otoklixSubmitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/otoklixSubmition.app/otoklixSubmition";
+			};
+			name = Release;
+		};
+		9F0771D02792C50C00CC61B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QNT26F7HW2;
+				INFOPLIST_FILE = otoklixSubmitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.xabdaz.user.otoklixSubmitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = otoklixSubmition;
+			};
+			name = Debug;
+		};
+		9F0771D12792C50C00CC61B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QNT26F7HW2;
+				INFOPLIST_FILE = otoklixSubmitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.xabdaz.user.otoklixSubmitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = otoklixSubmition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F07719A2792C50A00CC61B1 /* Build configuration list for PBXProject "otoklixSubmition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0771C72792C50C00CC61B1 /* Debug */,
+				9F0771C82792C50C00CC61B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0771C92792C50C00CC61B1 /* Build configuration list for PBXNativeTarget "otoklixSubmition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0771CA2792C50C00CC61B1 /* Debug */,
+				9F0771CB2792C50C00CC61B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0771CC2792C50C00CC61B1 /* Build configuration list for PBXNativeTarget "otoklixSubmitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0771CD2792C50C00CC61B1 /* Debug */,
+				9F0771CE2792C50C00CC61B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0771CF2792C50C00CC61B1 /* Build configuration list for PBXNativeTarget "otoklixSubmitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0771D02792C50C00CC61B1 /* Debug */,
+				9F0771D12792C50C00CC61B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F0771972792C50A00CC61B1 /* Project object */;
+}
