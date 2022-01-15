@@ -7,8 +7,14 @@
 
 import Foundation
 import Swinject
-
+import SwinjectAutoregistration
 extension Container {
     func registerDependencies() {
+        registerCoordinator()
+    }
+}
+public extension Container {
+    func registerCoordinator() {
+        autoregister(AppCoordinator.self, initializer: AppCoordinator.init)
     }
 }
