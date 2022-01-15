@@ -180,6 +180,7 @@
 				9F07719B2792C50A00CC61B1 /* Sources */,
 				9F07719C2792C50A00CC61B1 /* Frameworks */,
 				9F07719D2792C50A00CC61B1 /* Resources */,
+				754A3E9B08C0AED60E973021 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +218,7 @@
 				9F0771BC2792C50C00CC61B1 /* Sources */,
 				9F0771BD2792C50C00CC61B1 /* Frameworks */,
 				9F0771BE2792C50C00CC61B1 /* Resources */,
+				5BF93F2AE9C93B8CBC000B8B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -320,6 +322,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5BF93F2AE9C93B8CBC000B8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-otoklixSubmition-otoklixSubmitionUITests/Pods-otoklixSubmition-otoklixSubmitionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-otoklixSubmition-otoklixSubmitionUITests/Pods-otoklixSubmition-otoklixSubmitionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-otoklixSubmition-otoklixSubmitionUITests/Pods-otoklixSubmition-otoklixSubmitionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6F7A9C859E95778C11CF32A7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,6 +359,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		754A3E9B08C0AED60E973021 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		89A92EDE8ED81839D8EFCE10 /* [CP] Check Pods Manifest.lock */ = {
