@@ -19,5 +19,9 @@ class PostCell: EXTableViewCell {
 
         // Configure the view for the selected state
     }
+
+    public func setContent(item: PostDao) {
+        
+    }
     
 }

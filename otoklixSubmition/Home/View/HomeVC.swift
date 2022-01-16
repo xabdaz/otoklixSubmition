@@ -6,10 +6,11 @@
 //
 
 import UIKit
-import MapKit
+import RxSwift
 
 class HomeVC: EXViewController {
 
+    private let disposeBag = DisposeBag()
     @IBOutlet weak var tableView: EXTableView!
 
     private let viewModel: HomeViewModel
@@ -24,26 +25,31 @@ class HomeVC: EXViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let mock = MockupClient()
-        mock.request(resource: "posts", method: .get, json: nil) { result in
-            switch result {
-                
-            case .success(_):
-                print("success")
-            case .failure(_):
-                print("error")
-            }
-        }
+
+        self.setupUI()
+        self.setupInputBindings()
+        self.setupOutPutBindings()
+        self.setupState()
+
+        self.viewModel.outTableData.accept([PostDao(model: EXPostModel(default: DefaultPost()))])
+
     }
 
 }
 
 extension HomeVC: BaseSetupVC {
     func setupUI() {
-        
+        PostCell.registerTo(tableView: self.tableView)
     }
     
     func setupOutPutBindings() {
+        self.viewModel.outTableData
+            .bind(to: self.tableView.rx.items(
+                cellIdentifier: PostCell.identifier,
+                cellType: PostCell.self
+            )) { _, item, cell in
+                cell.setContent(item: item)
+            }.disposed(by: self.disposeBag)
     }
     
     func setupInputBindings() {
