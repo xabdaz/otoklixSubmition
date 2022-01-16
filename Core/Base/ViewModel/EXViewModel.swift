@@ -9,4 +9,8 @@ import Foundation
 import RxSwift
 open class EXViewModel: NSObject {
     let didFinishCoordinator = PublishSubject<Void>()
+    let stateNotifView = PublishSubject<NotifStateView>()
+}
+public enum NotifStateView {
+    case alert(message: String)
 }
