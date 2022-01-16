@@ -40,6 +40,9 @@
 		9FA2740B2792F51D0004AD29 /* EXPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2740A2792F51D0004AD29 /* EXPostModel.swift */; };
 		9FA2740D279333620004AD29 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2740C279333620004AD29 /* Collection+Extension.swift */; };
 		9FA2740F2793374A0004AD29 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2740E2793374A0004AD29 /* Int+Extension.swift */; };
+		9FA2741227933A290004AD29 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2741127933A290004AD29 /* HttpClient.swift */; };
+		9FA2741527933C2C0004AD29 /* MockupClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2741427933C2C0004AD29 /* MockupClient.swift */; };
+		9FA27416279454C40004AD29 /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FA274042792F2D80004AD29 /* list.json */; };
 		DCD25685C29A5CB1E7FF2E15 /* Pods_otoklixSubmitionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4F2F759121CD07349DDEA0 /* Pods_otoklixSubmitionTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +107,8 @@
 		9FA2740A2792F51D0004AD29 /* EXPostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXPostModel.swift; sourceTree = "<group>"; };
 		9FA2740C279333620004AD29 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		9FA2740E2793374A0004AD29 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		9FA2741127933A290004AD29 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		9FA2741427933C2C0004AD29 /* MockupClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockupClient.swift; sourceTree = "<group>"; };
 		A83E8EF17D1AA5B184F2FF16 /* Pods_otoklixSubmition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_otoklixSubmition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFCD7D976E4FCD0434F44D5 /* Pods-otoklixSubmitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmitionTests.debug.xcconfig"; path = "Target Support Files/Pods-otoklixSubmitionTests/Pods-otoklixSubmitionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3ED351C4EEF27B22C161B58 /* Pods-otoklixSubmition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmition.release.xcconfig"; path = "Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition.release.xcconfig"; sourceTree = "<group>"; };
@@ -209,6 +214,7 @@
 		9FA273D32792CC9F0004AD29 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				9FA274102793388F0004AD29 /* Network */,
 				9FA274082792F4530004AD29 /* Resource */,
 				9FA273E22792CE760004AD29 /* Base */,
 				9FA273D92792CDBE0004AD29 /* Utils */,
@@ -344,6 +350,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		9FA274102793388F0004AD29 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9FA2741127933A290004AD29 /* HttpClient.swift */,
+				9FA2741427933C2C0004AD29 /* MockupClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		D9954434CF95CFAFD67BFF7B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -468,6 +483,7 @@
 				9F0771AF2792C50B00CC61B1 /* LaunchScreen.storyboard in Resources */,
 				9FA274012792DA860004AD29 /* HomeVC.xib in Resources */,
 				9F0771AC2792C50B00CC61B1 /* Assets.xcassets in Resources */,
+				9FA27416279454C40004AD29 /* list.json in Resources */,
 				9F0771AA2792C50A00CC61B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -598,6 +614,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F0771A72792C50A00CC61B1 /* ViewController.swift in Sources */,
+				9FA2741527933C2C0004AD29 /* MockupClient.swift in Sources */,
 				9FA273DF2792CE1E0004AD29 /* Encodable+Extension.swift in Sources */,
 				9FA273DD2792CE060004AD29 /* String+Extension.swift in Sources */,
 				9F0771A32792C50A00CC61B1 /* AppDelegate.swift in Sources */,
@@ -607,6 +624,7 @@
 				9FA273E12792CE360004AD29 /* Reactive+Extension.swift in Sources */,
 				9FA273D82792CD810004AD29 /* Data+Extension.swift in Sources */,
 				9FA273ED2792CFCD0004AD29 /* EXTableViewCell.swift in Sources */,
+				9FA2741227933A290004AD29 /* HttpClient.swift in Sources */,
 				9FA273DB2792CDCE0004AD29 /* Json.swift in Sources */,
 				9FA2740D279333620004AD29 /* Collection+Extension.swift in Sources */,
 				9FA273E42792CE890004AD29 /* EXCoordinator.swift in Sources */,
