@@ -6,9 +6,20 @@
 //
 
 import XCTest
+import Swinject
+
 @testable import otoklixSubmition
 
 class otoklixListTests: XCTestCase {
+
+    private let message = """
+    \n\n
+    =================================================================
+    TestCase OtoKlix Coordinator Error on
+    """
+    private var appCoordinator: HomeCoordinator?
+
+    let container = Container()
 
     func getData() -> Data {
         let testBundle = Bundle(for: type(of: self))
@@ -37,6 +48,17 @@ class otoklixListTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+
+    func testHomeCoordinatorRegister() {
+        container.registerCoordinator()
+        container.registerViewModel()
+        let coordinator = container.resolve(HomeCoordinator.self)
+        XCTAssertNotNil(coordinator, "\(message) \(#function)")
+    }
+    func testHomeCoordinatorUnRegister() {
+        appCoordinator = container.resolve(HomeCoordinator.self)
+        XCTAssertNil(appCoordinator, "\(message) \(#function)")
     }
 
     func testOutIndex() {
