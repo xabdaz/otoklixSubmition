@@ -9,5 +9,4 @@ import RxSwift
 import RxCocoa
 
 public class HomeViewModel: EXViewModel {
-    
 }
