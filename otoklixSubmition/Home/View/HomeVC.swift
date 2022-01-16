@@ -40,6 +40,7 @@ class HomeVC: EXViewController {
 
 extension HomeVC: BaseSetupVC {
     func setupUI() {
+        
     }
     
     func setupOutPutBindings() {
