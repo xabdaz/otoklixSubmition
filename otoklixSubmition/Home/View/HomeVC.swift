@@ -31,7 +31,7 @@ class HomeVC: EXViewController {
         self.setupOutPutBindings()
         self.setupState()
 
-        self.viewModel.outTableData.accept([PostDao(model: EXPostModel(default: DefaultPost()))])
+        self.viewModel.fatchData()
 
     }
 

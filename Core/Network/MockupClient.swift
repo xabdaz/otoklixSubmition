@@ -24,7 +24,7 @@ public class MockupClient: HttpClient {
 
     public func request(resource: String, method: HttpMethod, json: Data?, completion: @escaping ((Result<SuccessResult, ErrorResult>) -> Void)) {
         switch resource {
-        case "posts":
+        case "https://limitless-forest-49003.herokuapp.com/posts":
             let data = self.getDataPost()
             let result = SuccessResult(
                 success: true,

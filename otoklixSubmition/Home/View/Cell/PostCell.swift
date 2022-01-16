@@ -9,6 +9,7 @@ import UIKit
 
 class PostCell: EXTableViewCell {
 
+    @IBOutlet weak var contentLable: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,7 +22,7 @@ class PostCell: EXTableViewCell {
     }
 
     public func setContent(item: PostDao) {
-        
+        self.contentLable.text = item.getContent()
     }
     
 }
