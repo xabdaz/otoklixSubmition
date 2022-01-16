@@ -13,7 +13,7 @@ public class MockupClient: HttpClient {
         self.headers = headers
     }
 
-    func getData() -> Data {
+    func getDataPost() -> Data {
         let testBundle = Bundle(for: type(of: self))
         let path = testBundle.path(forResource: "list", ofType: "json")
         guard let data = try? Data(contentsOf: URL(fileURLWithPath: path!), options: .alwaysMapped) else {
@@ -25,12 +25,15 @@ public class MockupClient: HttpClient {
     public func request(resource: String, method: HttpMethod, json: Data?, completion: @escaping ((Result<SuccessResult, ErrorResult>) -> Void)) {
         switch resource {
         case "posts":
-            let data = self.getData()
-
-            let resource = try? JSONDecoder().decode(PostResponse.self, from: data)
-            let value = resource?[safe: 1]?.id
-            print("value test", value)
-            completion(.failure(.dataNil))
+            let data = self.getDataPost()
+            let result = SuccessResult(
+                success: true,
+                statusCode: 200,
+                requestUrl: resource,
+                method: method,
+                data: data
+            )
+            completion(.success(result))
         default:
             completion(.failure(.generalError(code: 404, message: "Url Not Faund")))
         }

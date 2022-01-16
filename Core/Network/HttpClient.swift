@@ -25,8 +25,7 @@ public struct SuccessResult {
         statusCode: Int?,
         requestUrl: String,
         method: HttpMethod,
-        data: Data?,
-        error: Error?
+        data: Data?
     ) {
         self.success = success
         self.statusCode = statusCode
