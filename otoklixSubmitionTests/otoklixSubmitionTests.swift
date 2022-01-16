@@ -44,4 +44,27 @@ class otoklixSubmitionTests: XCTestCase {
         appCoordinator = container.resolve(AppCoordinator.self)
         XCTAssertNil(appCoordinator, "\(message) \(#function)")
     }
+
+    func testMockupClient() {
+        let mock = MockupClient()
+        mock.request(
+            resource: "posts",
+            method: .get,
+            json: nil) { result in
+                switch result {
+                case let .success(model):
+                    guard let data = model.data else {
+                        XCTAssertNil(model.data)
+                        return
+                    }
+                    let resource = try? JSONDecoder().decode(PostResponse.self, from: data)
+                    let value = resource?[1].id
+                    let dataStr = value.orEmpty
+                    
+                    XCTAssertEqual(dataStr, "385")
+                case .failure:
+                    break
+                }
+            }
+    }
 }

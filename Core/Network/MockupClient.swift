@@ -21,7 +21,7 @@ public class MockupClient: HttpClient {
         }
         return data
     }
-    
+
     public func request(resource: String, method: HttpMethod, json: Data?, completion: @escaping ((Result<SuccessResult, ErrorResult>) -> Void)) {
         switch resource {
         case "posts":
