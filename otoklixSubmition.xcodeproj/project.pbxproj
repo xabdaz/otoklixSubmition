@@ -29,7 +29,26 @@
 		9FA273ED2792CFCD0004AD29 /* EXTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273EC2792CFCD0004AD29 /* EXTableViewCell.swift */; };
 		9FA273EF2792D0740004AD29 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273EE2792D0740004AD29 /* HttpMethod.swift */; };
 		9FA273F22792D4200004AD29 /* EXViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273F12792D4200004AD29 /* EXViewModel.swift */; };
+		9FA273F62792D5620004AD29 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273F52792D5620004AD29 /* AppCoordinator.swift */; };
+		9FA273F82792D67A0004AD29 /* Containter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273F72792D67A0004AD29 /* Containter+Extension.swift */; };
+		9FA273FC2792DA610004AD29 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273FB2792DA610004AD29 /* HomeCoordinator.swift */; };
+		9FA274002792DA860004AD29 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273FE2792DA860004AD29 /* HomeVC.swift */; };
+		9FA274012792DA860004AD29 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FA273FF2792DA860004AD29 /* HomeVC.xib */; };
 		9FA274032792DB370004AD29 /* ViewControllerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA274022792DB370004AD29 /* ViewControllerUtils.swift */; };
+		9FA274052792F2D80004AD29 /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FA274042792F2D80004AD29 /* list.json */; };
+		9FA274072792F35A0004AD29 /* otoklixListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA274062792F35A0004AD29 /* otoklixListTests.swift */; };
+		9FA2740B2792F51D0004AD29 /* EXPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2740A2792F51D0004AD29 /* EXPostModel.swift */; };
+		9FA2740D279333620004AD29 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2740C279333620004AD29 /* Collection+Extension.swift */; };
+		9FA2740F2793374A0004AD29 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2740E2793374A0004AD29 /* Int+Extension.swift */; };
+		9FA2741227933A290004AD29 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2741127933A290004AD29 /* HttpClient.swift */; };
+		9FA2741527933C2C0004AD29 /* MockupClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2741427933C2C0004AD29 /* MockupClient.swift */; };
+		9FA27416279454C40004AD29 /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FA274042792F2D80004AD29 /* list.json */; };
+		9FA27419279456130004AD29 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA27418279456130004AD29 /* HomeViewModel.swift */; };
+		9FA2741C27945D3D0004AD29 /* PostDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2741B27945D3D0004AD29 /* PostDao.swift */; };
+		9FA2742027945E550004AD29 /* EXTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2741F27945E550004AD29 /* EXTableView.swift */; };
+		9FA2742227945F6C0004AD29 /* BaseSetupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2742127945F6C0004AD29 /* BaseSetupVC.swift */; };
+		9FA27426279460440004AD29 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA27424279460440004AD29 /* PostCell.swift */; };
+		9FA27427279460440004AD29 /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FA27425279460440004AD29 /* PostCell.xib */; };
 		DCD25685C29A5CB1E7FF2E15 /* Pods_otoklixSubmitionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4F2F759121CD07349DDEA0 /* Pods_otoklixSubmitionTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,7 +102,25 @@
 		9FA273EC2792CFCD0004AD29 /* EXTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXTableViewCell.swift; sourceTree = "<group>"; };
 		9FA273EE2792D0740004AD29 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 		9FA273F12792D4200004AD29 /* EXViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXViewModel.swift; sourceTree = "<group>"; };
+		9FA273F52792D5620004AD29 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		9FA273F72792D67A0004AD29 /* Containter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Containter+Extension.swift"; sourceTree = "<group>"; };
+		9FA273FB2792DA610004AD29 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		9FA273FE2792DA860004AD29 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		9FA273FF2792DA860004AD29 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		9FA274022792DB370004AD29 /* ViewControllerUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUtils.swift; sourceTree = "<group>"; };
+		9FA274042792F2D80004AD29 /* list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = list.json; sourceTree = "<group>"; };
+		9FA274062792F35A0004AD29 /* otoklixListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otoklixListTests.swift; sourceTree = "<group>"; };
+		9FA2740A2792F51D0004AD29 /* EXPostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXPostModel.swift; sourceTree = "<group>"; };
+		9FA2740C279333620004AD29 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
+		9FA2740E2793374A0004AD29 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		9FA2741127933A290004AD29 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		9FA2741427933C2C0004AD29 /* MockupClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockupClient.swift; sourceTree = "<group>"; };
+		9FA27418279456130004AD29 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9FA2741B27945D3D0004AD29 /* PostDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDao.swift; sourceTree = "<group>"; };
+		9FA2741F27945E550004AD29 /* EXTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXTableView.swift; sourceTree = "<group>"; };
+		9FA2742127945F6C0004AD29 /* BaseSetupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSetupVC.swift; sourceTree = "<group>"; };
+		9FA27424279460440004AD29 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		9FA27425279460440004AD29 /* PostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
 		A83E8EF17D1AA5B184F2FF16 /* Pods_otoklixSubmition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_otoklixSubmition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFCD7D976E4FCD0434F44D5 /* Pods-otoklixSubmitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmitionTests.debug.xcconfig"; path = "Target Support Files/Pods-otoklixSubmitionTests/Pods-otoklixSubmitionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3ED351C4EEF27B22C161B58 /* Pods-otoklixSubmition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmition.release.xcconfig"; path = "Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,6 +190,8 @@
 		9F0771A12792C50A00CC61B1 /* otoklixSubmition */ = {
 			isa = PBXGroup;
 			children = (
+				9FA273F92792D97E0004AD29 /* Home */,
+				9FA273F32792D5340004AD29 /* Application */,
 				9F0771A22792C50A00CC61B1 /* AppDelegate.swift */,
 				9F0771A42792C50A00CC61B1 /* SceneDelegate.swift */,
 				9F0771A62792C50A00CC61B1 /* ViewController.swift */,
@@ -168,7 +207,9 @@
 			isa = PBXGroup;
 			children = (
 				9F0771B92792C50C00CC61B1 /* otoklixSubmitionTests.swift */,
+				9FA274062792F35A0004AD29 /* otoklixListTests.swift */,
 				9F0771BB2792C50C00CC61B1 /* Info.plist */,
+				9FA274042792F2D80004AD29 /* list.json */,
 			);
 			path = otoklixSubmitionTests;
 			sourceTree = "<group>";
@@ -185,6 +226,9 @@
 		9FA273D32792CC9F0004AD29 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				9FA2741D27945E340004AD29 /* Component */,
+				9FA274102793388F0004AD29 /* Network */,
+				9FA274082792F4530004AD29 /* Resource */,
 				9FA273E22792CE760004AD29 /* Base */,
 				9FA273D92792CDBE0004AD29 /* Utils */,
 				9FA273D42792CD320004AD29 /* Extension */,
@@ -200,6 +244,9 @@
 				9FA273DC2792CE060004AD29 /* String+Extension.swift */,
 				9FA273DE2792CE1E0004AD29 /* Encodable+Extension.swift */,
 				9FA273E02792CE360004AD29 /* Reactive+Extension.swift */,
+				9FA273F72792D67A0004AD29 /* Containter+Extension.swift */,
+				9FA2740C279333620004AD29 /* Collection+Extension.swift */,
+				9FA2740E2793374A0004AD29 /* Int+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -246,6 +293,7 @@
 			children = (
 				9FA273EA2792CF3C0004AD29 /* EXViewController.swift */,
 				9FA273EC2792CFCD0004AD29 /* EXTableViewCell.swift */,
+				9FA2742127945F6C0004AD29 /* BaseSetupVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -256,6 +304,117 @@
 				9FA273F12792D4200004AD29 /* EXViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9FA273F32792D5340004AD29 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9FA273F42792D54D0004AD29 /* Coordinator */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9FA273F42792D54D0004AD29 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9FA273F52792D5620004AD29 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		9FA273F92792D97E0004AD29 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9FA2741A27945D280004AD29 /* Model */,
+				9FA27417279455EF0004AD29 /* ViewModel */,
+				9FA273FD2792DA690004AD29 /* View */,
+				9FA273FA2792DA530004AD29 /* Coordinator */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9FA273FA2792DA530004AD29 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9FA273FB2792DA610004AD29 /* HomeCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		9FA273FD2792DA690004AD29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FA27423279460230004AD29 /* Cell */,
+				9FA273FE2792DA860004AD29 /* HomeVC.swift */,
+				9FA273FF2792DA860004AD29 /* HomeVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FA274082792F4530004AD29 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9FA274092792F45E0004AD29 /* Model */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9FA274092792F45E0004AD29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FA2740A2792F51D0004AD29 /* EXPostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FA274102793388F0004AD29 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9FA2741127933A290004AD29 /* HttpClient.swift */,
+				9FA2741427933C2C0004AD29 /* MockupClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9FA27417279455EF0004AD29 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9FA27418279456130004AD29 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9FA2741A27945D280004AD29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FA2741B27945D3D0004AD29 /* PostDao.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FA2741D27945E340004AD29 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				9FA2741E27945E3B0004AD29 /* Table */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		9FA2741E27945E3B0004AD29 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				9FA2741F27945E550004AD29 /* EXTableView.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		9FA27423279460230004AD29 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9FA27424279460440004AD29 /* PostCell.swift */,
+				9FA27425279460440004AD29 /* PostCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		D9954434CF95CFAFD67BFF7B /* Pods */ = {
@@ -380,7 +539,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F0771AF2792C50B00CC61B1 /* LaunchScreen.storyboard in Resources */,
+				9FA27427279460440004AD29 /* PostCell.xib in Resources */,
+				9FA274012792DA860004AD29 /* HomeVC.xib in Resources */,
 				9F0771AC2792C50B00CC61B1 /* Assets.xcassets in Resources */,
+				9FA27416279454C40004AD29 /* list.json in Resources */,
 				9F0771AA2792C50A00CC61B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +551,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FA274052792F2D80004AD29 /* list.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,21 +673,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F0771A72792C50A00CC61B1 /* ViewController.swift in Sources */,
+				9FA2741527933C2C0004AD29 /* MockupClient.swift in Sources */,
 				9FA273DF2792CE1E0004AD29 /* Encodable+Extension.swift in Sources */,
+				9FA2741C27945D3D0004AD29 /* PostDao.swift in Sources */,
 				9FA273DD2792CE060004AD29 /* String+Extension.swift in Sources */,
 				9F0771A32792C50A00CC61B1 /* AppDelegate.swift in Sources */,
+				9FA2742227945F6C0004AD29 /* BaseSetupVC.swift in Sources */,
+				9FA273F62792D5620004AD29 /* AppCoordinator.swift in Sources */,
+				9FA2740B2792F51D0004AD29 /* EXPostModel.swift in Sources */,
+				9FA2742027945E550004AD29 /* EXTableView.swift in Sources */,
 				9FA274032792DB370004AD29 /* ViewControllerUtils.swift in Sources */,
 				9FA273E12792CE360004AD29 /* Reactive+Extension.swift in Sources */,
 				9FA273D82792CD810004AD29 /* Data+Extension.swift in Sources */,
 				9FA273ED2792CFCD0004AD29 /* EXTableViewCell.swift in Sources */,
+				9FA2741227933A290004AD29 /* HttpClient.swift in Sources */,
 				9FA273DB2792CDCE0004AD29 /* Json.swift in Sources */,
+				9FA2740D279333620004AD29 /* Collection+Extension.swift in Sources */,
 				9FA273E42792CE890004AD29 /* EXCoordinator.swift in Sources */,
 				9F0771A52792C50A00CC61B1 /* SceneDelegate.swift in Sources */,
+				9FA273FC2792DA610004AD29 /* HomeCoordinator.swift in Sources */,
 				9FA273EF2792D0740004AD29 /* HttpMethod.swift in Sources */,
 				9FA273EB2792CF3C0004AD29 /* EXViewController.swift in Sources */,
+				9FA2740F2793374A0004AD29 /* Int+Extension.swift in Sources */,
 				9FA273D62792CD410004AD29 /* TableView+Extension.swift in Sources */,
+				9FA27419279456130004AD29 /* HomeViewModel.swift in Sources */,
 				9FA273F22792D4200004AD29 /* EXViewModel.swift in Sources */,
 				9FA273E82792CEF20004AD29 /* CoordiantorResult.swift in Sources */,
+				9FA274002792DA860004AD29 /* HomeVC.swift in Sources */,
+				9FA273F82792D67A0004AD29 /* Containter+Extension.swift in Sources */,
+				9FA27426279460440004AD29 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +709,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FA274072792F35A0004AD29 /* otoklixListTests.swift in Sources */,
 				9F0771BA2792C50C00CC61B1 /* otoklixSubmitionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

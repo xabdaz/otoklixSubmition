@@ -6,10 +6,14 @@
 //
 
 import XCTest
+import Swinject
 @testable import otoklixSubmition
 
 class otoklixSubmitionTests: XCTestCase {
+    private let message = "TestCase OtoKlix Coordinator Error on "
+    private var appCoordinator: AppCoordinator?
 
+    let container = Container()
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -30,4 +34,37 @@ class otoklixSubmitionTests: XCTestCase {
         }
     }
 
+    func testRegisterCoordinator() {
+        container.registerCoordinator()
+        appCoordinator = container.resolve(AppCoordinator.self)
+        XCTAssertNotNil(appCoordinator, "\(message) \(#function)")
+    }
+
+    func testNotRegisterCoordinator() {
+        appCoordinator = container.resolve(AppCoordinator.self)
+        XCTAssertNil(appCoordinator, "\(message) \(#function)")
+    }
+
+    func testMockupClient() {
+        let mock = MockupClient()
+        mock.request(
+            resource: "posts",
+            method: .get,
+            json: nil) { result in
+                switch result {
+                case let .success(model):
+                    guard let data = model.data else {
+                        XCTAssertNil(model.data)
+                        return
+                    }
+                    let resource = try? JSONDecoder().decode(PostResponse.self, from: data)
+                    let value = resource?[1].id
+                    let dataStr = value.orEmpty
+                    
+                    XCTAssertEqual(dataStr, "385")
+                case .failure:
+                    break
+                }
+            }
+    }
 }
