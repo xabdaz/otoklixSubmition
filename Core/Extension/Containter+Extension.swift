@@ -12,6 +12,8 @@ extension Container {
     func registerDependencies() {
         registerCoordinator()
         registerViewModel()
+        registerUseCase()
+        registerService()
     }
 }
 public extension Container {
@@ -22,5 +24,14 @@ public extension Container {
 
     func registerViewModel() {
         autoregister(HomeViewModel.self, initializer: HomeViewModel.init)
+    }
+
+    func registerUseCase() {
+        autoregister(HomeUseCase.self, initializer: EXHomeUseCase.init)
+    }
+
+    func registerService() {
+        autoregister(BackendRestClient.self, initializer: BackendRestClient.init)
+        autoregister(HttpClient.self, initializer: ProductionClient.init)
     }
 }

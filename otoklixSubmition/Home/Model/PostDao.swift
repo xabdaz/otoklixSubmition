@@ -6,6 +6,9 @@
 //
 
 import Foundation
-struct PostDao {
+public struct PostDao {
     let model: EXPostModel
+    func getContent() -> String? {
+        return model.content
+    }
 }
