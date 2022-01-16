@@ -9,6 +9,9 @@ import UIKit
 import MapKit
 
 class HomeVC: EXViewController {
+
+    @IBOutlet weak var tableView: EXTableView!
+
     private let viewModel: HomeViewModel
     init(viewModel: HomeViewModel) {
         self.viewModel = viewModel
@@ -33,4 +36,18 @@ class HomeVC: EXViewController {
         }
     }
 
+}
+
+extension HomeVC: BaseSetupVC {
+    func setupUI() {
+    }
+    
+    func setupOutPutBindings() {
+    }
+    
+    func setupInputBindings() {
+    }
+    
+    func setupState() {
+    }
 }
