@@ -32,6 +32,6 @@ public extension Container {
 
     func registerService() {
         autoregister(BackendRestClient.self, initializer: BackendRestClient.init)
-        autoregister(HttpClient.self, initializer: MockupClient.init)
+        autoregister(HttpClient.self, initializer: ProductionClient.init)
     }
 }

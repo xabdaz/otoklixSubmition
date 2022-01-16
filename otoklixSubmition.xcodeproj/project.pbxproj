@@ -53,6 +53,7 @@
 		9FA2742C27946C110004AD29 /* BackEndRestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2742B27946C110004AD29 /* BackEndRestClient.swift */; };
 		9FA2742E27946C9C0004AD29 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2742D27946C9C0004AD29 /* ApiRequest.swift */; };
 		9FA27431279477840004AD29 /* PostRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA27430279477840004AD29 /* PostRepository.swift */; };
+		9FA2743327947F260004AD29 /* ProductionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2743227947F260004AD29 /* ProductionClient.swift */; };
 		DCD25685C29A5CB1E7FF2E15 /* Pods_otoklixSubmitionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4F2F759121CD07349DDEA0 /* Pods_otoklixSubmitionTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -129,6 +130,7 @@
 		9FA2742B27946C110004AD29 /* BackEndRestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackEndRestClient.swift; sourceTree = "<group>"; };
 		9FA2742D27946C9C0004AD29 /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
 		9FA27430279477840004AD29 /* PostRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRepository.swift; sourceTree = "<group>"; };
+		9FA2743227947F260004AD29 /* ProductionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionClient.swift; sourceTree = "<group>"; };
 		A83E8EF17D1AA5B184F2FF16 /* Pods_otoklixSubmition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_otoklixSubmition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFCD7D976E4FCD0434F44D5 /* Pods-otoklixSubmitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmitionTests.debug.xcconfig"; path = "Target Support Files/Pods-otoklixSubmitionTests/Pods-otoklixSubmitionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3ED351C4EEF27B22C161B58 /* Pods-otoklixSubmition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmition.release.xcconfig"; path = "Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition.release.xcconfig"; sourceTree = "<group>"; };
@@ -384,6 +386,7 @@
 				9FA2741427933C2C0004AD29 /* MockupClient.swift */,
 				9FA2742B27946C110004AD29 /* BackEndRestClient.swift */,
 				9FA2742D27946C9C0004AD29 /* ApiRequest.swift */,
+				9FA2743227947F260004AD29 /* ProductionClient.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -721,6 +724,7 @@
 				9FA273E42792CE890004AD29 /* EXCoordinator.swift in Sources */,
 				9F0771A52792C50A00CC61B1 /* SceneDelegate.swift in Sources */,
 				9FA2742E27946C9C0004AD29 /* ApiRequest.swift in Sources */,
+				9FA2743327947F260004AD29 /* ProductionClient.swift in Sources */,
 				9FA273FC2792DA610004AD29 /* HomeCoordinator.swift in Sources */,
 				9FA273EF2792D0740004AD29 /* HttpMethod.swift in Sources */,
 				9FA273EB2792CF3C0004AD29 /* EXViewController.swift in Sources */,

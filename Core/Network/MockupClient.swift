@@ -38,6 +38,4 @@ public class MockupClient: HttpClient {
             completion(.failure(.generalError(code: 404, message: "Url Not Faund")))
         }
     }
-    
-    
 }
