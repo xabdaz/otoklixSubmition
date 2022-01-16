@@ -9,4 +9,5 @@ import RxSwift
 import RxCocoa
 
 public class HomeViewModel: EXViewModel {
+    let outTableData = BehaviorRelay<[PostDao]>(value: [])
 }
