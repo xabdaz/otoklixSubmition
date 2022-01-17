@@ -54,6 +54,8 @@
 		9FA2742E27946C9C0004AD29 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2742D27946C9C0004AD29 /* ApiRequest.swift */; };
 		9FA27431279477840004AD29 /* PostRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA27430279477840004AD29 /* PostRepository.swift */; };
 		9FA2743327947F260004AD29 /* ProductionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2743227947F260004AD29 /* ProductionClient.swift */; };
+		9FA274382794828C0004AD29 /* DetailPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA274362794828C0004AD29 /* DetailPostVC.swift */; };
+		9FA274392794828C0004AD29 /* DetailPostVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FA274372794828C0004AD29 /* DetailPostVC.xib */; };
 		DCD25685C29A5CB1E7FF2E15 /* Pods_otoklixSubmitionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4F2F759121CD07349DDEA0 /* Pods_otoklixSubmitionTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -131,6 +133,8 @@
 		9FA2742D27946C9C0004AD29 /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
 		9FA27430279477840004AD29 /* PostRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRepository.swift; sourceTree = "<group>"; };
 		9FA2743227947F260004AD29 /* ProductionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionClient.swift; sourceTree = "<group>"; };
+		9FA274362794828C0004AD29 /* DetailPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPostVC.swift; sourceTree = "<group>"; };
+		9FA274372794828C0004AD29 /* DetailPostVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailPostVC.xib; sourceTree = "<group>"; };
 		A83E8EF17D1AA5B184F2FF16 /* Pods_otoklixSubmition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_otoklixSubmition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFCD7D976E4FCD0434F44D5 /* Pods-otoklixSubmitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmitionTests.debug.xcconfig"; path = "Target Support Files/Pods-otoklixSubmitionTests/Pods-otoklixSubmitionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3ED351C4EEF27B22C161B58 /* Pods-otoklixSubmition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmition.release.xcconfig"; path = "Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition.release.xcconfig"; sourceTree = "<group>"; };
@@ -200,6 +204,7 @@
 		9F0771A12792C50A00CC61B1 /* otoklixSubmition */ = {
 			isa = PBXGroup;
 			children = (
+				9FA27434279481FD0004AD29 /* Detail */,
 				9FA273F92792D97E0004AD29 /* Home */,
 				9FA273F32792D5340004AD29 /* Application */,
 				9F0771A22792C50A00CC61B1 /* AppDelegate.swift */,
@@ -448,6 +453,23 @@
 			path = Repository;
 			sourceTree = "<group>";
 		};
+		9FA27434279481FD0004AD29 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				9FA27435279482610004AD29 /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		9FA27435279482610004AD29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FA274362794828C0004AD29 /* DetailPostVC.swift */,
+				9FA274372794828C0004AD29 /* DetailPostVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D9954434CF95CFAFD67BFF7B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -571,6 +593,7 @@
 			files = (
 				9F0771AF2792C50B00CC61B1 /* LaunchScreen.storyboard in Resources */,
 				9FA27427279460440004AD29 /* PostCell.xib in Resources */,
+				9FA274392794828C0004AD29 /* DetailPostVC.xib in Resources */,
 				9FA274012792DA860004AD29 /* HomeVC.xib in Resources */,
 				9F0771AC2792C50B00CC61B1 /* Assets.xcassets in Resources */,
 				9FA27416279454C40004AD29 /* list.json in Resources */,
@@ -726,6 +749,7 @@
 				9FA2742E27946C9C0004AD29 /* ApiRequest.swift in Sources */,
 				9FA2743327947F260004AD29 /* ProductionClient.swift in Sources */,
 				9FA273FC2792DA610004AD29 /* HomeCoordinator.swift in Sources */,
+				9FA274382794828C0004AD29 /* DetailPostVC.swift in Sources */,
 				9FA273EF2792D0740004AD29 /* HttpMethod.swift in Sources */,
 				9FA273EB2792CF3C0004AD29 /* EXViewController.swift in Sources */,
 				9FA2742C27946C110004AD29 /* BackEndRestClient.swift in Sources */,

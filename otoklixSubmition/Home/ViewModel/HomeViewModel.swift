@@ -10,6 +10,7 @@ import RxCocoa
 
 public class HomeViewModel: EXViewModel {
     private let disposeBag = DisposeBag()
+    let didSelectedItem = PublishSubject<PostDao>()
     let outTableData = BehaviorRelay<[PostDao]>(value: [])
     private let homeUseCase: HomeUseCase
     public init(homeUseCase: HomeUseCase) {
