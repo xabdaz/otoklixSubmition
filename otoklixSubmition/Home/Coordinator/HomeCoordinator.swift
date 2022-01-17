@@ -30,6 +30,11 @@ public class HomeCoordinator: EXCoordinator {
             .bind { [weak self] in
                 self?.navigateToDetail()
             }.disposed(by: self.disposeBag)
+
+        self.viewModel.didNavigateToEdit
+            .bind { [weak self] in
+                self?.navigateToEdit()
+            }.disposed(by: self.disposeBag)
     }
 }
 
@@ -54,6 +59,18 @@ extension HomeCoordinator {
         sheet.adjustForBottomSafeArea = true
 
         navigationController.presentOnTop(sheet, animated: false, style: .overFullScreen)
+    }
+
+    func navigateToEdit() {
+        let coordinator = AppDelegate.container.resolve(InputCoordinator.self)
+        coordinator?.navigationController = self.navigation
+        self.start(coordinator: coordinator)
+
+        coordinator?.onRelease = { [weak self] stateData, dataValue in
+            if stateData == .EDIT || stateData == .SAVE {
+                self?.viewModel.fatchData()
+            }
+        }
     }
 
 }
