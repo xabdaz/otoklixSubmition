@@ -12,4 +12,10 @@ enum PostRepository {
             super.init(resource: "posts")
         }
     }
+
+    class GetDetail: ApiRequest<EXPostModel> {
+        init(id: String) {
+            super.init(resource: "posts/\(id)")
+        }
+    }
 }

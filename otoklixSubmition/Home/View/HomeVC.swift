@@ -53,6 +53,9 @@ extension HomeVC: BaseSetupVC {
     }
     
     func setupInputBindings() {
+        self.tableView.rx.modelSelected(PostDao.self)
+            .bind(to: self.viewModel.didSelectedItem)
+            .disposed(by: self.disposeBag)
     }
     
     func setupState() {
