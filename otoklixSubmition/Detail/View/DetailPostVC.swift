@@ -49,8 +49,13 @@ extension DetailPostVC: BaseSetupVC {
             .disposed(by: self.disposeBag)
 
         self.viewModel.outContent
-            .bind(to: self.contentLabel.rx.text)
-            .disposed(by: self.disposeBag)
+            .bind { [weak self] text in
+                let text = text.orEmpty
+                DispatchQueue.main.async {
+                    self?.contentLabel.attributedText = text.htmlToAttributedString
+                }
+            }.disposed(by: self.disposeBag)
+//            .disposed(by: self.disposeBag)
     }
     
     func setupInputBindings() {
