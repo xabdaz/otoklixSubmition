@@ -10,6 +10,7 @@ import RxSwift
 
 class HomeVC: EXViewController {
 
+    @IBOutlet weak var addButton: UIButton!
     private let disposeBag = DisposeBag()
     @IBOutlet weak var tableView: EXTableView!
 
@@ -55,6 +56,10 @@ extension HomeVC: BaseSetupVC {
     func setupInputBindings() {
         self.tableView.rx.modelSelected(PostDao.self)
             .bind(to: self.viewModel.didSelectedItem)
+            .disposed(by: self.disposeBag)
+    
+        self.addButton.rx.tap
+            .bind(to: self.viewModel.didAddPressed)
             .disposed(by: self.disposeBag)
     }
     

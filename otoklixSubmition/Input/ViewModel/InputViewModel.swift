@@ -12,6 +12,7 @@ public class InputViewModel: EXViewModel {
     private let disposeBag = DisposeBag()
 
     let didData = BehaviorRelay<PostDao?>(value: nil)
+    let didSuccess = PublishSubject<CrudType>()
 
     let inOutTitle = BehaviorRelay<String?>(value: nil)
     let inOutContent = BehaviorRelay<String?>(value: nil)
@@ -52,9 +53,23 @@ extension InputViewModel {
             guard let model = didData.value else { return }
             self.handleEdit(model: model)
         case .CREATE:
-            break
+            self.handleCreate()
         default: break
         }
+    }
+
+    private func handleCreate() {
+        let params = [
+            "title": self.inOutTitle.value.orEmpty,
+            "content" : self.inOutContent.value.orEmpty
+        ]
+        self.useCase.create(params: params as [String: AnyObject])
+            .subscribe { [weak self] model in
+                self?.didSuccess.onNext(.CREATE(()))
+            } onError: { _ in
+            } onCompleted: {
+            } onDisposed: {
+            }.disposed(by: self.disposeBag)
     }
 
     private func handleEdit(model: PostDao) {
@@ -63,8 +78,8 @@ extension InputViewModel {
             "content" : self.inOutContent.value.orEmpty
         ]
         self.useCase.edit(params: params as [String: AnyObject], id: model.model.id.orEmpty)
-            .subscribe { model in
-                print(model.model.content.orEmpty)
+            .subscribe { [weak self] model in
+                self?.didSuccess.onNext(.EDIT(()))
             } onError: { _ in
             } onCompleted: {
             } onDisposed: {

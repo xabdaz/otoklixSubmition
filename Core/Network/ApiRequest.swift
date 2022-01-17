@@ -18,7 +18,7 @@ open class ApiRequest<T: Codable> {
         expectedCode: Int = 200,
         form: [String:String]? = nil,
         json: Data? = nil,
-        header: [String: String] = [:]
+        header: [String: String] = ["Content-Type": "application/json"]
     ) {
         self.resource = resource
         self.method = method

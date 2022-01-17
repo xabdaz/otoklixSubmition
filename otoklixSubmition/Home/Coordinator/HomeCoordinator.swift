@@ -33,7 +33,12 @@ public class HomeCoordinator: EXCoordinator {
 
         self.viewModel.didNavigateToEdit
             .bind { [weak self] in
-                self?.navigateToEdit()
+                self?.navigateToInput()
+            }.disposed(by: self.disposeBag)
+
+        self.viewModel.didAddPressed
+            .bind { [weak self] in
+                self?.navigateToInput()
             }.disposed(by: self.disposeBag)
     }
 }
@@ -61,7 +66,7 @@ extension HomeCoordinator {
         navigationController.presentOnTop(sheet, animated: false, style: .overFullScreen)
     }
 
-    func navigateToEdit() {
+    func navigateToInput() {
         let coordinator = AppDelegate.container.resolve(InputCoordinator.self)
         coordinator?.navigationController = self.navigation
         self.start(coordinator: coordinator)

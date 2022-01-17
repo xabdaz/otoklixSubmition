@@ -23,16 +23,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4C8645C8-43C1-40F5-892A-8E97F72DE3F9"
+            uuid = "16B2164B-D250-4238-A2A7-8FEFD22CC522"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Core/Network/ProductionClient.swift"
+            filePath = "otoklixSubmition/Home/Coordinator/HomeCoordinator.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "request(resource:method:json:completion:)"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "setupBinding()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

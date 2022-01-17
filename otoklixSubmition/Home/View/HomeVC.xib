@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeVC" customModule="otoklixSubmition" customModuleProvider="target">
             <connections>
+                <outlet property="addButton" destination="sWN-md-ScC" id="uVI-Nz-Na6"/>
                 <outlet property="tableView" destination="A3g-fo-xZf" id="Erk-fG-O1E"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -24,19 +25,39 @@
                     <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWN-md-ScC">
+                    <rect key="frame" x="314" y="762" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="1rx-gr-wgF"/>
+                        <constraint firstAttribute="height" constant="50" id="nBC-5H-ROM"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title=""/>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add" translatesAutoresizingMaskIntoConstraints="NO" id="caJ-Qn-DOa">
+                    <rect key="frame" x="314" y="762" width="50" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="sWN-md-ScC" secondAttribute="bottom" constant="50" id="Cfr-zf-UVr"/>
                 <constraint firstItem="A3g-fo-xZf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="DWI-tW-SWV"/>
                 <constraint firstItem="A3g-fo-xZf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="NPs-hC-3pF"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="A3g-fo-xZf" secondAttribute="trailing" id="T4u-0X-2xo"/>
+                <constraint firstItem="caJ-Qn-DOa" firstAttribute="height" secondItem="sWN-md-ScC" secondAttribute="height" id="XKw-Yq-NaC"/>
+                <constraint firstItem="caJ-Qn-DOa" firstAttribute="centerX" secondItem="sWN-md-ScC" secondAttribute="centerX" id="cKI-cj-LZ8"/>
+                <constraint firstItem="caJ-Qn-DOa" firstAttribute="width" secondItem="sWN-md-ScC" secondAttribute="width" id="hYg-XU-oFB"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="A3g-fo-xZf" secondAttribute="bottom" id="o7i-zE-bfd"/>
+                <constraint firstItem="caJ-Qn-DOa" firstAttribute="centerY" secondItem="sWN-md-ScC" secondAttribute="centerY" id="tgZ-P9-dqH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="sWN-md-ScC" secondAttribute="trailing" constant="50" id="uQi-SZ-yOT"/>
             </constraints>
-            <point key="canvasLocation" x="139" y="115"/>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
         </view>
     </objects>
     <resources>
+        <image name="add" width="129" height="129"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

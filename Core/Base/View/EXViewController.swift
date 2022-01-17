@@ -6,6 +6,9 @@
 //
 
 import UIKit
+protocol BaseViewControllerProtocol {
+    dynamic func onFinishCoordinator()
+}
 
 open class EXViewController: UIViewController {
     
