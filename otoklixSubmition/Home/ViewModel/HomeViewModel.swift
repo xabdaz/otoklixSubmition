@@ -9,6 +9,7 @@ import RxSwift
 import RxCocoa
 
 public class HomeViewModel: EXViewModel {
+    let didNavigateToEdit = PublishSubject<Void>()
     let didNavigateToDetail = PublishSubject<Void>()
     let didDeleteItem = PublishSubject<Void>()
 
@@ -53,6 +54,18 @@ extension HomeViewModel {
             .bind { [weak self] item in
                 self?.handleDelete(item: item)
             }.disposed(by: self.disposeBag)
+
+        self.didNavigateToEdit
+            .withLatestFrom(self.didSelectedItem)
+            .bind { model in
+                AppDelegate.container.register(CrudType.self) { _ in .EDIT(model)}
+            }.disposed(by: self.disposeBag)
+
+        self.didNavigateToDetail
+            .withLatestFrom(self.didSelectedItem)
+            .bind { model in
+                AppDelegate.container.register(String.self) { _ in model.model.id.orEmpty }
+            }.disposed(by: self.disposeBag)
     }
 
     private func handleDelete(item: PostDao) {
@@ -72,7 +85,8 @@ extension HomeViewModel {
             self.didNavigateToDetail.onNext(())
         case .delete:
             self.didDeleteItem.onNext(())
-        default: break
+        case .edit:
+            self.didNavigateToEdit.onNext(())
         }
     }
     func fatchData() {

@@ -28,9 +28,10 @@ public class ProductionClient: HttpClient {
         request.httpMethod = method.rawValue
         if method == .post {
             request.httpBody = json
-        } else {
-            
+        } else if method == .put {
+            request.httpBody = json
         }
+
         for head in self.headers {
             request.addValue(head.value, forHTTPHeaderField: head.key)
         }

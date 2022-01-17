@@ -17,6 +17,13 @@
 		9F0771AF2792C50B00CC61B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0771AD2792C50B00CC61B1 /* LaunchScreen.storyboard */; };
 		9F0771BA2792C50C00CC61B1 /* otoklixSubmitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0771B92792C50C00CC61B1 /* otoklixSubmitionTests.swift */; };
 		9F0771C52792C50C00CC61B1 /* otoklixSubmitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0771C42792C50C00CC61B1 /* otoklixSubmitionUITests.swift */; };
+		9F46B53E2795C3D4004BD0C9 /* InputCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F46B53D2795C3D4004BD0C9 /* InputCoordinator.swift */; };
+		9F46B5412795C426004BD0C9 /* InputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F46B5402795C426004BD0C9 /* InputViewModel.swift */; };
+		9F46B5442795C97C004BD0C9 /* InputUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F46B5432795C97C004BD0C9 /* InputUseCase.swift */; };
+		9F46B5462795CDB4004BD0C9 /* Dictonary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F46B5452795CDB4004BD0C9 /* Dictonary+Extension.swift */; };
+		9F716C56279592820094266B /* InputSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F716C54279592820094266B /* InputSheet.swift */; };
+		9F716C57279592820094266B /* InputSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F716C55279592820094266B /* InputSheet.xib */; };
+		9F716C5927959E600094266B /* CrudType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F716C5827959E600094266B /* CrudType.swift */; };
 		9FA273D62792CD410004AD29 /* TableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273D52792CD410004AD29 /* TableView+Extension.swift */; };
 		9FA273D82792CD810004AD29 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273D72792CD810004AD29 /* Data+Extension.swift */; };
 		9FA273DB2792CDCE0004AD29 /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA273DA2792CDCE0004AD29 /* Json.swift */; };
@@ -114,6 +121,13 @@
 		9F0771C02792C50C00CC61B1 /* otoklixSubmitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = otoklixSubmitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0771C42792C50C00CC61B1 /* otoklixSubmitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otoklixSubmitionUITests.swift; sourceTree = "<group>"; };
 		9F0771C62792C50C00CC61B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F46B53D2795C3D4004BD0C9 /* InputCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputCoordinator.swift; sourceTree = "<group>"; };
+		9F46B5402795C426004BD0C9 /* InputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewModel.swift; sourceTree = "<group>"; };
+		9F46B5432795C97C004BD0C9 /* InputUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputUseCase.swift; sourceTree = "<group>"; };
+		9F46B5452795CDB4004BD0C9 /* Dictonary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictonary+Extension.swift"; sourceTree = "<group>"; };
+		9F716C54279592820094266B /* InputSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSheet.swift; sourceTree = "<group>"; };
+		9F716C55279592820094266B /* InputSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputSheet.xib; sourceTree = "<group>"; };
+		9F716C5827959E600094266B /* CrudType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrudType.swift; sourceTree = "<group>"; };
 		9FA273D52792CD410004AD29 /* TableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Extension.swift"; sourceTree = "<group>"; };
 		9FA273D72792CD810004AD29 /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
 		9FA273DA2792CDCE0004AD29 /* Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
@@ -238,6 +252,7 @@
 		9F0771A12792C50A00CC61B1 /* otoklixSubmition */ = {
 			isa = PBXGroup;
 			children = (
+				9F716C52279591C50094266B /* Input */,
 				9FA27434279481FD0004AD29 /* Detail */,
 				9FA273F92792D97E0004AD29 /* Home */,
 				9FA273F32792D5340004AD29 /* Application */,
@@ -272,6 +287,50 @@
 			path = otoklixSubmitionUITests;
 			sourceTree = "<group>";
 		};
+		9F46B53C2795C3AB004BD0C9 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9F46B53D2795C3D4004BD0C9 /* InputCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		9F46B53F2795C416004BD0C9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9F46B5402795C426004BD0C9 /* InputViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9F46B5422795C969004BD0C9 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				9F46B5432795C97C004BD0C9 /* InputUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		9F716C52279591C50094266B /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				9F46B5422795C969004BD0C9 /* UseCase */,
+				9F46B53F2795C416004BD0C9 /* ViewModel */,
+				9F46B53C2795C3AB004BD0C9 /* Coordinator */,
+				9F716C53279592270094266B /* View */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		9F716C53279592270094266B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F716C54279592820094266B /* InputSheet.swift */,
+				9F716C55279592820094266B /* InputSheet.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9FA273D32792CC9F0004AD29 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,6 +359,7 @@
 				9FA2745B27950CC70004AD29 /* UIView+Extension.swift */,
 				9FA2746227951A030004AD29 /* UIViewController+Extension.swift */,
 				9FA2746427951A3B0004AD29 /* UINavigationController+Extension.swift */,
+				9F46B5452795CDB4004BD0C9 /* Dictonary+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -338,6 +398,7 @@
 			children = (
 				9FA273E72792CEF20004AD29 /* CoordiantorResult.swift */,
 				9FA273EE2792D0740004AD29 /* HttpMethod.swift */,
+				9F716C5827959E600094266B /* CrudType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -701,6 +762,7 @@
 				9F0771AF2792C50B00CC61B1 /* LaunchScreen.storyboard in Resources */,
 				9FA27427279460440004AD29 /* PostCell.xib in Resources */,
 				9FA274392794828C0004AD29 /* DetailPostVC.xib in Resources */,
+				9F716C57279592820094266B /* InputSheet.xib in Resources */,
 				9FA274012792DA860004AD29 /* HomeVC.xib in Resources */,
 				9F0771AC2792C50B00CC61B1 /* Assets.xcassets in Resources */,
 				9FA2745827950C0D0004AD29 /* OLWithIconCell.xib in Resources */,
@@ -845,11 +907,14 @@
 				9F0771A32792C50A00CC61B1 /* AppDelegate.swift in Sources */,
 				9FA2746527951A3B0004AD29 /* UINavigationController+Extension.swift in Sources */,
 				9FA2742227945F6C0004AD29 /* BaseSetupVC.swift in Sources */,
+				9F46B5442795C97C004BD0C9 /* InputUseCase.swift in Sources */,
 				9FA274422794FBE90004AD29 /* DetailViewModel.swift in Sources */,
 				9FA2744E279509B70004AD29 /* MoreOptionsSheet.swift in Sources */,
 				9FA273F62792D5620004AD29 /* AppCoordinator.swift in Sources */,
 				9FA2740B2792F51D0004AD29 /* EXPostModel.swift in Sources */,
+				9F716C5927959E600094266B /* CrudType.swift in Sources */,
 				9FA2742027945E550004AD29 /* EXTableView.swift in Sources */,
+				9F46B5412795C426004BD0C9 /* InputViewModel.swift in Sources */,
 				9FA274402794FBB40004AD29 /* DetailCoordinator.swift in Sources */,
 				9FA27449279508260004AD29 /* EXViewControllerSheet.swift in Sources */,
 				9FA274032792DB370004AD29 /* ViewControllerUtils.swift in Sources */,
@@ -858,6 +923,7 @@
 				9FA273ED2792CFCD0004AD29 /* EXTableViewCell.swift in Sources */,
 				9FA2741227933A290004AD29 /* HttpClient.swift in Sources */,
 				9FA274462794FF860004AD29 /* DetailUseCase.swift in Sources */,
+				9F716C56279592820094266B /* InputSheet.swift in Sources */,
 				9FA2745327950B0F0004AD29 /* MoreOptionsType.swift in Sources */,
 				9FA273DB2792CDCE0004AD29 /* Json.swift in Sources */,
 				9FA2740D279333620004AD29 /* Collection+Extension.swift in Sources */,
@@ -865,6 +931,8 @@
 				9FA273E42792CE890004AD29 /* EXCoordinator.swift in Sources */,
 				9F0771A52792C50A00CC61B1 /* SceneDelegate.swift in Sources */,
 				9FA2742E27946C9C0004AD29 /* ApiRequest.swift in Sources */,
+				9F46B5462795CDB4004BD0C9 /* Dictonary+Extension.swift in Sources */,
+				9F46B53E2795C3D4004BD0C9 /* InputCoordinator.swift in Sources */,
 				9FA2745C27950CC70004AD29 /* UIView+Extension.swift in Sources */,
 				9FA2743327947F260004AD29 /* ProductionClient.swift in Sources */,
 				9FA2745727950C0D0004AD29 /* OLWithIconCell.swift in Sources */,

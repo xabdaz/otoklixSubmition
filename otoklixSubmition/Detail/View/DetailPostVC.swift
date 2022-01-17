@@ -55,6 +55,5 @@ extension DetailPostVC: BaseSetupVC {
     
     func setupState() {
     }
-    
-    
+
 }
