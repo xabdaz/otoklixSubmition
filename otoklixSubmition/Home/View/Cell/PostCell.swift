@@ -22,7 +22,7 @@ class PostCell: EXTableViewCell {
     }
 
     public func setContent(item: PostDao) {
-        self.contentLable.text = item.getContent()
+        self.contentLable.attributedText = item.getContent()?.htmlToAttributedString
     }
     
 }
