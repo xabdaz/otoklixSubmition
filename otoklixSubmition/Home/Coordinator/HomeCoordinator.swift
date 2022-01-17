@@ -6,6 +6,7 @@
 //
 
 import RxSwift
+import FittedSheets
 public class HomeCoordinator: EXCoordinator {
     private let disposeBag = DisposeBag()
     private let viewModel: HomeViewModel
@@ -22,6 +23,11 @@ public class HomeCoordinator: EXCoordinator {
     public override func setupBinding() {
         self.viewModel.didSelectedItem
             .bind { [weak self] _ in
+                self?.navigateToMoreOption()
+            }.disposed(by: self.disposeBag)
+
+        self.viewModel.didNavigateToDetail
+            .bind { [weak self] in
                 self?.navigateToDetail()
             }.disposed(by: self.disposeBag)
     }
@@ -35,4 +41,19 @@ extension HomeCoordinator {
         self.start(coordinator: coordinator)
         
     }
+
+    func navigateToMoreOption() {
+        let viewModel = MoreOptionsViewModel(options: viewModel.moreOptionItems)
+        let moreOption = MoreOptionsSheet(viewModel: viewModel)
+        let sheet = SheetViewController(controller: moreOption)
+        viewModel.didItemSelected
+            .bind(to: self.viewModel.didItemSelected)
+            .disposed(by: self.disposeBag)
+
+        sheet.extendBackgroundBehindHandle = true
+        sheet.adjustForBottomSafeArea = true
+
+        navigationController.presentOnTop(sheet, animated: false, style: .overFullScreen)
+    }
+
 }

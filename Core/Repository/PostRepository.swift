@@ -18,4 +18,10 @@ enum PostRepository {
             super.init(resource: "posts/\(id)")
         }
     }
+
+    class DeleteDetail: ApiRequest<EXPostModel> {
+        init(id: String) {
+            super.init(resource: "posts/\(id)", method: .delete)
+        }
+    }
 }

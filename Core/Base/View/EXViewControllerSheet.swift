@@ -170,11 +170,3 @@ extension Reactive where Base: UIViewController {
         }
     }
 }
-public extension UIViewController {
-    var sheeted: SheetViewController? {
-        guard let vc = self.parent as? SheetViewController else {
-            return nil
-        }
-        return vc
-    }
-}

@@ -10,10 +10,12 @@ import RxCocoa
 
 public protocol HomeUseCase: AnyObject {
     func loadData() -> Observable<[PostDao]>
+    func deletePost(id: String) -> Observable<PostDao>
     func bindError() -> Observable<NotifStateView>
 }
 
 public class EXHomeUseCase: HomeUseCase {
+
     private let errorState = PublishSubject<NotifStateView>()
     private let restClient: BackendRestClient
     public init(restClient: BackendRestClient) {
@@ -27,6 +29,17 @@ public class EXHomeUseCase: HomeUseCase {
                 return .never()
             }.map { model -> [PostDao] in
                 let item = model.map { PostDao(model: $0) }
+                return item
+            }.asObservable()
+    }
+
+    public func deletePost(id: String) -> Observable<PostDao> {
+        return restClient.request(PostRepository.DeleteDetail(id: id))
+            .catchError{ [weak self] error in
+                self?.handleError(error: error)
+                return .never()
+            }.map { model -> PostDao in
+                let item = PostDao(model: model)
                 return item
             }.asObservable()
     }
