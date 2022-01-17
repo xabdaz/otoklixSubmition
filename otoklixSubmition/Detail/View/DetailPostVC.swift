@@ -6,24 +6,55 @@
 //
 
 import UIKit
+import RxSwift
 
 class DetailPostVC: EXViewController {
 
+    @IBOutlet weak var contentLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+
+    private let disposeBag = DisposeBag()
+    private let viewModel: DetailViewModel
+    init(viewModel: DetailViewModel) {
+        self.viewModel = viewModel
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required public init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.setupUI()
+        self.setupInputBindings()
+        self.setupOutPutBindings()
+        self.setupState()
 
+        self.viewModel.fetchData()
         // Do any additional setup after loading the view.
     }
+}
 
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension DetailPostVC: BaseSetupVC {
+    func setupUI() {
     }
-    */
+    
+    func setupOutPutBindings() {
+        self.viewModel.outTitle
+            .bind(to: self.titleLabel.rx.text)
+            .disposed(by: self.disposeBag)
 
+        self.viewModel.outContent
+            .bind(to: self.contentLabel.rx.text)
+            .disposed(by: self.disposeBag)
+    }
+    
+    func setupInputBindings() {
+    }
+    
+    func setupState() {
+    }
+    
+    
 }

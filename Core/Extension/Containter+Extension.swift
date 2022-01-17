@@ -20,14 +20,17 @@ public extension Container {
     func registerCoordinator() {
         autoregister(AppCoordinator.self, initializer: AppCoordinator.init)
         autoregister(HomeCoordinator.self, initializer: HomeCoordinator.init)
+        autoregister(DetailCoordinator.self, initializer: DetailCoordinator.init)
     }
 
     func registerViewModel() {
         autoregister(HomeViewModel.self, initializer: HomeViewModel.init)
+        autoregister(DetailViewModel.self, initializer: DetailViewModel.init)
     }
 
     func registerUseCase() {
         autoregister(HomeUseCase.self, initializer: EXHomeUseCase.init)
+        autoregister(DetailUseCase.self, initializer: EXDetailUseCase.init)
     }
 
     func registerService() {

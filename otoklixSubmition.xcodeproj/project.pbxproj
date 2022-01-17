@@ -56,6 +56,10 @@
 		9FA2743327947F260004AD29 /* ProductionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2743227947F260004AD29 /* ProductionClient.swift */; };
 		9FA274382794828C0004AD29 /* DetailPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA274362794828C0004AD29 /* DetailPostVC.swift */; };
 		9FA274392794828C0004AD29 /* DetailPostVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FA274372794828C0004AD29 /* DetailPostVC.xib */; };
+		9FA274402794FBB40004AD29 /* DetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2743F2794FBB40004AD29 /* DetailCoordinator.swift */; };
+		9FA274422794FBE90004AD29 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA274412794FBE90004AD29 /* DetailViewModel.swift */; };
+		9FA274442794FF5B0004AD29 /* DetailDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA274432794FF5B0004AD29 /* DetailDao.swift */; };
+		9FA274462794FF860004AD29 /* DetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA274452794FF860004AD29 /* DetailUseCase.swift */; };
 		DCD25685C29A5CB1E7FF2E15 /* Pods_otoklixSubmitionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4F2F759121CD07349DDEA0 /* Pods_otoklixSubmitionTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -135,6 +139,10 @@
 		9FA2743227947F260004AD29 /* ProductionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionClient.swift; sourceTree = "<group>"; };
 		9FA274362794828C0004AD29 /* DetailPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPostVC.swift; sourceTree = "<group>"; };
 		9FA274372794828C0004AD29 /* DetailPostVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailPostVC.xib; sourceTree = "<group>"; };
+		9FA2743F2794FBB40004AD29 /* DetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoordinator.swift; sourceTree = "<group>"; };
+		9FA274412794FBE90004AD29 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		9FA274432794FF5B0004AD29 /* DetailDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDao.swift; sourceTree = "<group>"; };
+		9FA274452794FF860004AD29 /* DetailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUseCase.swift; sourceTree = "<group>"; };
 		A83E8EF17D1AA5B184F2FF16 /* Pods_otoklixSubmition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_otoklixSubmition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFCD7D976E4FCD0434F44D5 /* Pods-otoklixSubmitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmitionTests.debug.xcconfig"; path = "Target Support Files/Pods-otoklixSubmitionTests/Pods-otoklixSubmitionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3ED351C4EEF27B22C161B58 /* Pods-otoklixSubmition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmition.release.xcconfig"; path = "Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition.release.xcconfig"; sourceTree = "<group>"; };
@@ -456,6 +464,10 @@
 		9FA27434279481FD0004AD29 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				9FA2743D2794FB680004AD29 /* Coordinator */,
+				9FA2743C2794FB530004AD29 /* UseCase */,
+				9FA2743B2794FB400004AD29 /* Model */,
+				9FA2743A2794FB330004AD29 /* ViewModel */,
 				9FA27435279482610004AD29 /* View */,
 			);
 			path = Detail;
@@ -468,6 +480,38 @@
 				9FA274372794828C0004AD29 /* DetailPostVC.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		9FA2743A2794FB330004AD29 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9FA274412794FBE90004AD29 /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9FA2743B2794FB400004AD29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FA274432794FF5B0004AD29 /* DetailDao.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FA2743C2794FB530004AD29 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				9FA274452794FF860004AD29 /* DetailUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		9FA2743D2794FB680004AD29 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9FA2743F2794FBB40004AD29 /* DetailCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		D9954434CF95CFAFD67BFF7B /* Pods */ = {
@@ -729,18 +773,22 @@
 				9F0771A72792C50A00CC61B1 /* ViewController.swift in Sources */,
 				9FA2741527933C2C0004AD29 /* MockupClient.swift in Sources */,
 				9FA273DF2792CE1E0004AD29 /* Encodable+Extension.swift in Sources */,
+				9FA274442794FF5B0004AD29 /* DetailDao.swift in Sources */,
 				9FA2741C27945D3D0004AD29 /* PostDao.swift in Sources */,
 				9FA273DD2792CE060004AD29 /* String+Extension.swift in Sources */,
 				9F0771A32792C50A00CC61B1 /* AppDelegate.swift in Sources */,
 				9FA2742227945F6C0004AD29 /* BaseSetupVC.swift in Sources */,
+				9FA274422794FBE90004AD29 /* DetailViewModel.swift in Sources */,
 				9FA273F62792D5620004AD29 /* AppCoordinator.swift in Sources */,
 				9FA2740B2792F51D0004AD29 /* EXPostModel.swift in Sources */,
 				9FA2742027945E550004AD29 /* EXTableView.swift in Sources */,
+				9FA274402794FBB40004AD29 /* DetailCoordinator.swift in Sources */,
 				9FA274032792DB370004AD29 /* ViewControllerUtils.swift in Sources */,
 				9FA273E12792CE360004AD29 /* Reactive+Extension.swift in Sources */,
 				9FA273D82792CD810004AD29 /* Data+Extension.swift in Sources */,
 				9FA273ED2792CFCD0004AD29 /* EXTableViewCell.swift in Sources */,
 				9FA2741227933A290004AD29 /* HttpClient.swift in Sources */,
+				9FA274462794FF860004AD29 /* DetailUseCase.swift in Sources */,
 				9FA273DB2792CDCE0004AD29 /* Json.swift in Sources */,
 				9FA2740D279333620004AD29 /* Collection+Extension.swift in Sources */,
 				9FA2742A279469460004AD29 /* HomeUseCase.swift in Sources */,

@@ -24,6 +24,13 @@ extension HomeViewModel {
         self.homeUseCase.bindError()
             .bind(to: self.stateNotifView)
             .disposed(by: self.disposeBag)
+
+        self.didSelectedItem
+            .filter { $0.model.id != nil }
+            .map { $0.model.id! }
+            .bind { id in
+                AppDelegate.container.register(String.self) { _ in id}
+            }.disposed(by: self.disposeBag)
     }
 
     func fatchData() {

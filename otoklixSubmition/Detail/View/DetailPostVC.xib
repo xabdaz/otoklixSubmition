@@ -11,6 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailPostVC" customModule="otoklixSubmition" customModuleProvider="target">
             <connections>
+                <outlet property="contentLabel" destination="d1r-LM-oor" id="BvX-Mq-Yiw"/>
+                <outlet property="titleLabel" destination="Pak-Xw-MYE" id="GxT-1L-YTe"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

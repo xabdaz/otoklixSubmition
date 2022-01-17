@@ -30,7 +30,9 @@ public class HomeCoordinator: EXCoordinator {
 extension HomeCoordinator {
 
     func navigateToDetail() {
-        let viewController = DetailPostVC()
-        self.navigation.pushViewController(viewController, animated: true)
+        let coordinator = AppDelegate.container.resolve(DetailCoordinator.self)
+        coordinator?.navigationController = self.navigation
+        self.start(coordinator: coordinator)
+        
     }
 }
