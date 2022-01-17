@@ -34,6 +34,9 @@ class DetailPostVC: EXViewController {
         self.viewModel.fetchData()
         // Do any additional setup after loading the view.
     }
+    override func onFinishCoordinator() {
+        self.viewModel.didFinishCoordinator.onNext(())
+    }
 }
 
 extension DetailPostVC: BaseSetupVC {

@@ -49,12 +49,18 @@ extension UINavigationController {
     
     func closeSheet(_ completion: (() -> Void)? = nil) {
         if let sheet = self.presentedViewController as? SheetViewController {
-            sheet.closeSheet(completion: completion)
+            DispatchQueue.main.async {
+                sheet.closeSheet(completion: completion)
+            }
         } else if let nav = self.presentedViewController as? UINavigationController,
                   let sheet = nav.topViewController as? SheetViewController {
-            sheet.closeSheet(completion: completion)
+            DispatchQueue.main.async {
+                sheet.closeSheet(completion: completion)
+            }
         } else if let sheet = self.topViewController?.isSheeted {
-            sheet.closeSheet(completion: completion)
+            DispatchQueue.main.async {
+                sheet.closeSheet(completion: completion)
+            }
         } else {
             self.dismiss(animated: false, completion: completion)
         }

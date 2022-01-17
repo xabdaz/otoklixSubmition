@@ -40,6 +40,10 @@ public class HomeCoordinator: EXCoordinator {
             .bind { [weak self] in
                 self?.navigateToInput()
             }.disposed(by: self.disposeBag)
+
+        self.viewModel.didFinishCoordinator
+            .bind(to: self.didFinish)
+            .disposed(by: self.disposeBag)
     }
 }
 
