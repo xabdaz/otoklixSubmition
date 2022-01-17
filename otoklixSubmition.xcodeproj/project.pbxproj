@@ -60,6 +60,19 @@
 		9FA274422794FBE90004AD29 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA274412794FBE90004AD29 /* DetailViewModel.swift */; };
 		9FA274442794FF5B0004AD29 /* DetailDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA274432794FF5B0004AD29 /* DetailDao.swift */; };
 		9FA274462794FF860004AD29 /* DetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA274452794FF860004AD29 /* DetailUseCase.swift */; };
+		9FA27449279508260004AD29 /* EXViewControllerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA27448279508260004AD29 /* EXViewControllerSheet.swift */; };
+		9FA2744E279509B70004AD29 /* MoreOptionsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2744C279509B70004AD29 /* MoreOptionsSheet.swift */; };
+		9FA2744F279509B70004AD29 /* MoreOptionsSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FA2744D279509B70004AD29 /* MoreOptionsSheet.xib */; };
+		9FA2745127950AF60004AD29 /* MoreOptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2745027950AF60004AD29 /* MoreOptionViewModel.swift */; };
+		9FA2745327950B0F0004AD29 /* MoreOptionsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2745227950B0F0004AD29 /* MoreOptionsType.swift */; };
+		9FA2745727950C0D0004AD29 /* OLWithIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2745527950C0D0004AD29 /* OLWithIconCell.swift */; };
+		9FA2745827950C0D0004AD29 /* OLWithIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FA2745627950C0D0004AD29 /* OLWithIconCell.xib */; };
+		9FA2745A27950C4A0004AD29 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2745927950C4A0004AD29 /* XibView.swift */; };
+		9FA2745C27950CC70004AD29 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2745B27950CC70004AD29 /* UIView+Extension.swift */; };
+		9FA2745F27950D150004AD29 /* OLWithIcon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FA2745E27950D150004AD29 /* OLWithIcon.xib */; };
+		9FA2746127950D780004AD29 /* OLWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2746027950D780004AD29 /* OLWithIcon.swift */; };
+		9FA2746327951A030004AD29 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2746227951A030004AD29 /* UIViewController+Extension.swift */; };
+		9FA2746527951A3B0004AD29 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2746427951A3B0004AD29 /* UINavigationController+Extension.swift */; };
 		DCD25685C29A5CB1E7FF2E15 /* Pods_otoklixSubmitionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4F2F759121CD07349DDEA0 /* Pods_otoklixSubmitionTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -143,6 +156,19 @@
 		9FA274412794FBE90004AD29 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		9FA274432794FF5B0004AD29 /* DetailDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDao.swift; sourceTree = "<group>"; };
 		9FA274452794FF860004AD29 /* DetailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUseCase.swift; sourceTree = "<group>"; };
+		9FA27448279508260004AD29 /* EXViewControllerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXViewControllerSheet.swift; sourceTree = "<group>"; };
+		9FA2744C279509B70004AD29 /* MoreOptionsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreOptionsSheet.swift; sourceTree = "<group>"; };
+		9FA2744D279509B70004AD29 /* MoreOptionsSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreOptionsSheet.xib; sourceTree = "<group>"; };
+		9FA2745027950AF60004AD29 /* MoreOptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreOptionViewModel.swift; sourceTree = "<group>"; };
+		9FA2745227950B0F0004AD29 /* MoreOptionsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreOptionsType.swift; sourceTree = "<group>"; };
+		9FA2745527950C0D0004AD29 /* OLWithIconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLWithIconCell.swift; sourceTree = "<group>"; };
+		9FA2745627950C0D0004AD29 /* OLWithIconCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OLWithIconCell.xib; sourceTree = "<group>"; };
+		9FA2745927950C4A0004AD29 /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
+		9FA2745B27950CC70004AD29 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		9FA2745E27950D150004AD29 /* OLWithIcon.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OLWithIcon.xib; sourceTree = "<group>"; };
+		9FA2746027950D780004AD29 /* OLWithIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLWithIcon.swift; sourceTree = "<group>"; };
+		9FA2746227951A030004AD29 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		9FA2746427951A3B0004AD29 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
 		A83E8EF17D1AA5B184F2FF16 /* Pods_otoklixSubmition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_otoklixSubmition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFCD7D976E4FCD0434F44D5 /* Pods-otoklixSubmitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmitionTests.debug.xcconfig"; path = "Target Support Files/Pods-otoklixSubmitionTests/Pods-otoklixSubmitionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3ED351C4EEF27B22C161B58 /* Pods-otoklixSubmition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otoklixSubmition.release.xcconfig"; path = "Target Support Files/Pods-otoklixSubmition/Pods-otoklixSubmition.release.xcconfig"; sourceTree = "<group>"; };
@@ -271,6 +297,9 @@
 				9FA273F72792D67A0004AD29 /* Containter+Extension.swift */,
 				9FA2740C279333620004AD29 /* Collection+Extension.swift */,
 				9FA2740E2793374A0004AD29 /* Int+Extension.swift */,
+				9FA2745B27950CC70004AD29 /* UIView+Extension.swift */,
+				9FA2746227951A030004AD29 /* UIViewController+Extension.swift */,
+				9FA2746427951A3B0004AD29 /* UINavigationController+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -280,6 +309,7 @@
 			children = (
 				9FA273DA2792CDCE0004AD29 /* Json.swift */,
 				9FA274022792DB370004AD29 /* ViewControllerUtils.swift */,
+				9FA2745927950C4A0004AD29 /* XibView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -318,6 +348,7 @@
 				9FA273EA2792CF3C0004AD29 /* EXViewController.swift */,
 				9FA273EC2792CFCD0004AD29 /* EXTableViewCell.swift */,
 				9FA2742127945F6C0004AD29 /* BaseSetupVC.swift */,
+				9FA27448279508260004AD29 /* EXViewControllerSheet.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -423,6 +454,9 @@
 		9FA2741D27945E340004AD29 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				9FA2745D27950D0D0004AD29 /* View */,
+				9FA2745427950BF20004AD29 /* Cell */,
+				9FA27447279507E50004AD29 /* MoreOption */,
 				9FA2741E27945E3B0004AD29 /* Table */,
 			);
 			path = Component;
@@ -512,6 +546,35 @@
 				9FA2743F2794FBB40004AD29 /* DetailCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		9FA27447279507E50004AD29 /* MoreOption */ = {
+			isa = PBXGroup;
+			children = (
+				9FA2744C279509B70004AD29 /* MoreOptionsSheet.swift */,
+				9FA2744D279509B70004AD29 /* MoreOptionsSheet.xib */,
+				9FA2745027950AF60004AD29 /* MoreOptionViewModel.swift */,
+				9FA2745227950B0F0004AD29 /* MoreOptionsType.swift */,
+			);
+			path = MoreOption;
+			sourceTree = "<group>";
+		};
+		9FA2745427950BF20004AD29 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9FA2745527950C0D0004AD29 /* OLWithIconCell.swift */,
+				9FA2745627950C0D0004AD29 /* OLWithIconCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9FA2745D27950D0D0004AD29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FA2745E27950D150004AD29 /* OLWithIcon.xib */,
+				9FA2746027950D780004AD29 /* OLWithIcon.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D9954434CF95CFAFD67BFF7B /* Pods */ = {
@@ -640,8 +703,11 @@
 				9FA274392794828C0004AD29 /* DetailPostVC.xib in Resources */,
 				9FA274012792DA860004AD29 /* HomeVC.xib in Resources */,
 				9F0771AC2792C50B00CC61B1 /* Assets.xcassets in Resources */,
+				9FA2745827950C0D0004AD29 /* OLWithIconCell.xib in Resources */,
+				9FA2744F279509B70004AD29 /* MoreOptionsSheet.xib in Resources */,
 				9FA27416279454C40004AD29 /* list.json in Resources */,
 				9F0771AA2792C50A00CC61B1 /* Main.storyboard in Resources */,
+				9FA2745F27950D150004AD29 /* OLWithIcon.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -777,26 +843,34 @@
 				9FA2741C27945D3D0004AD29 /* PostDao.swift in Sources */,
 				9FA273DD2792CE060004AD29 /* String+Extension.swift in Sources */,
 				9F0771A32792C50A00CC61B1 /* AppDelegate.swift in Sources */,
+				9FA2746527951A3B0004AD29 /* UINavigationController+Extension.swift in Sources */,
 				9FA2742227945F6C0004AD29 /* BaseSetupVC.swift in Sources */,
 				9FA274422794FBE90004AD29 /* DetailViewModel.swift in Sources */,
+				9FA2744E279509B70004AD29 /* MoreOptionsSheet.swift in Sources */,
 				9FA273F62792D5620004AD29 /* AppCoordinator.swift in Sources */,
 				9FA2740B2792F51D0004AD29 /* EXPostModel.swift in Sources */,
 				9FA2742027945E550004AD29 /* EXTableView.swift in Sources */,
 				9FA274402794FBB40004AD29 /* DetailCoordinator.swift in Sources */,
+				9FA27449279508260004AD29 /* EXViewControllerSheet.swift in Sources */,
 				9FA274032792DB370004AD29 /* ViewControllerUtils.swift in Sources */,
 				9FA273E12792CE360004AD29 /* Reactive+Extension.swift in Sources */,
 				9FA273D82792CD810004AD29 /* Data+Extension.swift in Sources */,
 				9FA273ED2792CFCD0004AD29 /* EXTableViewCell.swift in Sources */,
 				9FA2741227933A290004AD29 /* HttpClient.swift in Sources */,
 				9FA274462794FF860004AD29 /* DetailUseCase.swift in Sources */,
+				9FA2745327950B0F0004AD29 /* MoreOptionsType.swift in Sources */,
 				9FA273DB2792CDCE0004AD29 /* Json.swift in Sources */,
 				9FA2740D279333620004AD29 /* Collection+Extension.swift in Sources */,
 				9FA2742A279469460004AD29 /* HomeUseCase.swift in Sources */,
 				9FA273E42792CE890004AD29 /* EXCoordinator.swift in Sources */,
 				9F0771A52792C50A00CC61B1 /* SceneDelegate.swift in Sources */,
 				9FA2742E27946C9C0004AD29 /* ApiRequest.swift in Sources */,
+				9FA2745C27950CC70004AD29 /* UIView+Extension.swift in Sources */,
 				9FA2743327947F260004AD29 /* ProductionClient.swift in Sources */,
+				9FA2745727950C0D0004AD29 /* OLWithIconCell.swift in Sources */,
 				9FA273FC2792DA610004AD29 /* HomeCoordinator.swift in Sources */,
+				9FA2745127950AF60004AD29 /* MoreOptionViewModel.swift in Sources */,
+				9FA2745A27950C4A0004AD29 /* XibView.swift in Sources */,
 				9FA274382794828C0004AD29 /* DetailPostVC.swift in Sources */,
 				9FA273EF2792D0740004AD29 /* HttpMethod.swift in Sources */,
 				9FA273EB2792CF3C0004AD29 /* EXViewController.swift in Sources */,
@@ -806,8 +880,10 @@
 				9FA27419279456130004AD29 /* HomeViewModel.swift in Sources */,
 				9FA273F22792D4200004AD29 /* EXViewModel.swift in Sources */,
 				9FA273E82792CEF20004AD29 /* CoordiantorResult.swift in Sources */,
+				9FA2746127950D780004AD29 /* OLWithIcon.swift in Sources */,
 				9FA274002792DA860004AD29 /* HomeVC.swift in Sources */,
 				9FA273F82792D67A0004AD29 /* Containter+Extension.swift in Sources */,
+				9FA2746327951A030004AD29 /* UIViewController+Extension.swift in Sources */,
 				9FA27426279460440004AD29 /* PostCell.swift in Sources */,
 				9FA27431279477840004AD29 /* PostRepository.swift in Sources */,
 			);

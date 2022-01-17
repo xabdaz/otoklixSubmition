@@ -9,6 +9,17 @@ import RxSwift
 import RxCocoa
 
 public class HomeViewModel: EXViewModel {
+    let didNavigateToDetail = PublishSubject<Void>()
+    let didDeleteItem = PublishSubject<Void>()
+
+    let moreOptionItems: [MoreOptionsType] = [
+        .read(MoreOptionsModel(icon: nil, title: "Lihat")),
+        .edit(MoreOptionsModel(icon: nil, title: "Ubah")),
+        .delete(MoreOptionsModel(icon: nil, title: "Hapus"))
+    ]
+
+    let didItemSelected = PublishSubject<MoreOptionsType>()
+
     private let disposeBag = DisposeBag()
     let didSelectedItem = PublishSubject<PostDao>()
     let outTableData = BehaviorRelay<[PostDao]>(value: [])
@@ -31,8 +42,39 @@ extension HomeViewModel {
             .bind { id in
                 AppDelegate.container.register(String.self) { _ in id}
             }.disposed(by: self.disposeBag)
+
+        self.didItemSelected
+            .bind { [weak self] type in
+                self?.handleOptionSelected(type: type)
+            }.disposed(by: self.disposeBag)
+
+        self.didDeleteItem
+            .withLatestFrom(self.didSelectedItem)
+            .bind { [weak self] item in
+                self?.handleDelete(item: item)
+            }.disposed(by: self.disposeBag)
     }
 
+    private func handleDelete(item: PostDao) {
+        self.homeUseCase.deletePost(id: item.model.id.orEmpty)
+            .subscribe { _ in
+                self.fatchData()
+            } onError: { _ in
+            } onCompleted: {
+            } onDisposed: {
+            }.disposed(by: self.disposeBag)
+
+    }
+
+    private func handleOptionSelected(type: MoreOptionsType) {
+        switch type {
+        case .read:
+            self.didNavigateToDetail.onNext(())
+        case .delete:
+            self.didDeleteItem.onNext(())
+        default: break
+        }
+    }
     func fatchData() {
         self.homeUseCase.loadData()
             .subscribe { [weak self] model in
