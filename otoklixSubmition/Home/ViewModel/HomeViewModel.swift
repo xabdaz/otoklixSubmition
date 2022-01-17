@@ -11,12 +11,13 @@ import RxCocoa
 public class HomeViewModel: EXViewModel {
     let didNavigateToEdit = PublishSubject<Void>()
     let didNavigateToDetail = PublishSubject<Void>()
+    let didAddPressed = PublishSubject<Void>()
     let didDeleteItem = PublishSubject<Void>()
 
     let moreOptionItems: [MoreOptionsType] = [
-        .read(MoreOptionsModel(icon: nil, title: "Lihat")),
-        .edit(MoreOptionsModel(icon: nil, title: "Ubah")),
-        .delete(MoreOptionsModel(icon: nil, title: "Hapus"))
+        .read(MoreOptionsModel(icon: UIImage(named: "list"), title: "Lihat")),
+        .edit(MoreOptionsModel(icon: UIImage(named: "editing"), title: "Ubah")),
+        .delete(MoreOptionsModel(icon: UIImage(named: "bin"), title: "Hapus"))
     ]
 
     let didItemSelected = PublishSubject<MoreOptionsType>()
@@ -65,6 +66,11 @@ extension HomeViewModel {
             .withLatestFrom(self.didSelectedItem)
             .bind { model in
                 AppDelegate.container.register(String.self) { _ in model.model.id.orEmpty }
+            }.disposed(by: self.disposeBag)
+
+        self.didAddPressed
+            .bind { _ in
+                AppDelegate.container.register(CrudType.self) { _ in .CREATE(())}
             }.disposed(by: self.disposeBag)
     }
 

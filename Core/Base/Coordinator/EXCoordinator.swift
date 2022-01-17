@@ -75,7 +75,9 @@ open class EXCoordinator: NSObject, Coordinator {
         self.resultCode = resultCode
         self.resultData = resultData
     }
-    
+    deinit {
+        onRelease?(resultCode, resultData)
+    }
     
 }
 public extension EXCoordinator {

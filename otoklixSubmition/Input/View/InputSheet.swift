@@ -36,6 +36,10 @@ class InputSheet: EXViewControllerSheet {
         self.viewModel.fetchData()
     }
 
+    override func onFinishCoordinator() {
+        self.viewModel.didFinishCoordinator.onNext(())
+    }
+
 }
 
 extension InputSheet: BaseSetupVC {

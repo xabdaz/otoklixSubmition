@@ -44,6 +44,9 @@ class EXViewControllerSheet: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    deinit {
+        onFinishCoordinator()
+    }
 }
 
 extension EXViewControllerSheet {
@@ -161,6 +164,14 @@ extension EXViewControllerSheet {
             .bind(to: rx.heightSheet)
             .disposed(by: self.disposeBag)
     }
+}
+
+extension EXViewControllerSheet: BaseViewControllerProtocol {
+
+    @objc func onFinishCoordinator() {
+        print("please implemented to destroy coordinator")
+    }
+
 }
 
 extension Reactive where Base: UIViewController {
